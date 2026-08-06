@@ -1,0 +1,64 @@
+{
+  "name": "Sunshine Agro Products",
+  "shortName": "SAP",
+  "tagline": "Inactive dried yeast, engineered for animal performance",
+  "founded": 2003,
+  "description": "Sunshine Agro Products is an ISO 9001:2015 certified manufacturer of inactive dried yeast and specialised feed supplements for aqua, poultry, swine and livestock nutrition. Established in 2003 at Chennai, India, with a dedicated production facility at Erode.",
+  "positioning": "Manufacturers of aqua culture, live stock nutrients & sea food exporters",
+  "proprietor": {
+    "name": "S.N. Senthil Kumar",
+    "role": "Proprietor",
+    "image": "/images/team/sn-senthil-kumar.jpg",
+    "quote": "The core purpose of our enterprise is to give the aqua industry an antibiotic-free supplement it can build a crop around."
+  },
+  "stats": [
+    { "value": 2003, "suffix": "", "label": "Established", "note": "Two decades in animal nutrition" },
+    { "value": 100, "suffix": " MT", "label": "Capacity per day", "note": "Erode manufacturing facility" },
+    { "value": 5, "suffix": "", "label": "Product lines", "note": "Yeast, probiotics & mineral mixes" },
+    { "value": 40, "suffix": "%", "label": "Min crude protein", "note": "Nutriments-MDY typical analysis" }
+  ],
+  "addresses": [
+    {
+      "type": "Registered & corporate office",
+      "line1": "New No. 12, Old No. 31/18, Kanakar Street",
+      "line2": "Ganesh Colony, Tondiarpet",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "postal": "600 081",
+      "country": "India"
+    },
+    {
+      "type": "Manufacturing unit",
+      "line1": "No. 77/1, North Street, Rayapalayam Pudhur",
+      "line2": "Suriyampalayam, Chithode (PO)",
+      "city": "Erode",
+      "state": "Tamil Nadu",
+      "postal": "638 102",
+      "country": "India"
+    }
+  ],
+  "contact": {
+    "phone": "+91 94457 67887",
+    "phoneAlt": "+91 98414 23929",
+    "phoneAlt2": "+91 70100 15974",
+    "landline": "+91 44 2595 3106",
+    "landlineAlt": "+91 44 2596 3106",
+    "whatsapp": "919445767887",
+    "email": "sunshineagroproducts@gmail.com"
+  },
+  "registration": {
+    "gstin": "33AOFPS3874R1Z3",
+    "iso": "ISO 9001:2015 — Certificate No. E20250218146",
+    "isoValidUntil": "05/02/2028",
+    "trademark": "Trade Mark No. 4064646 (Class 31), Trade Marks Registry, Government of India"
+  },
+  "industriesServed": [
+    "Shrimp & prawn culture",
+    "Fish culture",
+    "Poultry — broilers & layers",
+    "Swine — piglets & sows",
+    "Cattle — beef & dairy",
+    "Commercial feed millers",
+    "Pet food manufacturers"
+  ]
+}

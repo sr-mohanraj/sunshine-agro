@@ -1,0 +1,386 @@
+[
+  {
+    "slug": "nutriments-mdy",
+    "name": "Nutriments-MDY",
+    "trademark": true,
+    "subtitle": "Molasses Dried Yeast",
+    "descriptor": "Inactive Dried Yeast",
+    "category": "inactive-dried-yeast",
+    "species": ["shrimp", "fish", "poultry", "swine", "cattle", "pet"],
+    "featured": true,
+    "order": 1,
+    "image": "/images/products/nutriments-mdy.jpg",
+    "imageAlt": "Light brown Nutriments-MDY inactive dried yeast powder spread on white paper",
+    "gallery": [
+      { "src": "/images/products/nutriments-mdy.jpg", "alt": "Nutriments-MDY light brown fine powder" },
+      { "src": "/images/products/bag-front.jpg", "alt": "25 kg Nutriments-MDY bag, front panel with composition" },
+      { "src": "/images/products/bag-back.jpg", "alt": "25 kg Nutriments-MDY bag, back panel with dosages" },
+      { "src": "/images/products/nutriments-mdy-alt.jpg", "alt": "Close crop of Nutriments-MDY powder texture" }
+    ],
+    "summary": "A natural fermentation product made of 100% Saccharomyces cerevisiae cells grown on sugar cane molasses — a high-value protein source with a balanced amino acid profile and the best natural source of B vitamins.",
+    "pitch": "Our flagship inactive dried yeast. Spray-dried from molasses-grown Saccharomyces cerevisiae, it acts as a prophylactic micro-ingredient and immune-system booster while adding natural palatability that lifts feed intake and feed conversion.",
+    "appearance": "Light brown coloured thin powder",
+    "ingredients": "100% Saccharomyces cerevisiae",
+    "microbial": "Saccharomyces cerevisiae: 35 × 10³ cfu/g",
+    "benefits": [
+      "Higher survival and growth rate",
+      "Increased weight gain",
+      "Improves efficiency of the digestive system",
+      "Faster digestion and absorption of nutrients",
+      "Higher feed consumption with better FCR",
+      "Reduces the pathogenic bacterial loads in gut",
+      "Enhances immunity and controls stress"
+    ],
+    "specs": [
+      { "group": "Proximate composition (typical)", "unit": "", "rows": [
+        { "k": "Moisture", "v": "8 % Max" },
+        { "k": "Ash", "v": "8 % Max" },
+        { "k": "Crude Protein", "v": "40 % Min" },
+        { "k": "Carbohydrate", "v": "40 %" },
+        { "k": "Ether extract", "v": "0.02 %" },
+        { "k": "Crude Fiber", "v": "0.30 %" },
+        { "k": "Gross energy, swine", "v": "4690 kcal/kg" },
+        { "k": "ME Poultry", "v": "2218 kcal/kg" },
+        { "k": "ME Swine", "v": "3276 kcal/kg" },
+        { "k": "TDN", "v": "78 %" }
+      ]},
+      { "group": "Vitamins (typical)", "unit": "ppm", "rows": [
+        { "k": "Thiamine (B1)", "v": "8.50" },
+        { "k": "Riboflavin (B2)", "v": "28.44" },
+        { "k": "Niacin (B3)", "v": "65.32" },
+        { "k": "Pantothenic acid (B5)", "v": "79.60" },
+        { "k": "Pyridoxine (B6)", "v": "13.36" },
+        { "k": "Choline (B7)", "v": "1205.42" },
+        { "k": "Biotin (B8)", "v": "2.12" },
+        { "k": "Folic acid (B9)", "v": "0.19" },
+        { "k": "Cyanocobalamin (B12)", "v": "0.003" }
+      ]},
+      { "group": "Minerals (typical)", "unit": "", "rows": [
+        { "k": "Calcium", "v": "0.17 %" },
+        { "k": "Phosphorus", "v": "0.56 %" },
+        { "k": "Potassium", "v": "0.10 %" },
+        { "k": "Magnesium", "v": "0.22 %" },
+        { "k": "Sulfur", "v": "0.28 %" },
+        { "k": "Sodium", "v": "0.03 %" },
+        { "k": "Zinc", "v": "31.32 ppm" },
+        { "k": "Selenium", "v": "0.02 ppm" },
+        { "k": "Copper", "v": "4.42 ppm" },
+        { "k": "Iron", "v": "98.10 ppm" },
+        { "k": "Manganese", "v": "21.92 ppm" },
+        { "k": "Chromium", "v": "1.31 ppm" }
+      ]}
+    ],
+    "aminoAcids": {
+      "columns": ["Amino acid (%)", "TAA", "DAA-Swine", "DAA-Poultry"],
+      "rows": [
+        ["Alanine", "2.68", "2.15", "2.10"],
+        ["Arginine", "1.75", "1.58", "1.22"],
+        ["Aspartic acid", "4.02", "3.51", "2.21"],
+        ["Glycine", "1.65", "1.32", "1.22"],
+        ["Isoleucine", "1.90", "1.57", "0.63"],
+        ["Leucine", "2.58", "2.17", "0.96"],
+        ["Glutamic acid", "5.18", "4.35", "NE"],
+        ["Lysine", "2.92", "2.46", "2.04"],
+        ["Cystine", "0.29", "0.21", "0.16"],
+        ["Methionine", "0.71", "0.60", "0.41"],
+        ["Phenylalanine", "1.68", "1.42", "0.72"],
+        ["Tyrosine", "1.09", "0.95", "0.80"],
+        ["Threonine", "2.29", "1.82", "1.14"],
+        ["Tryptophan", "0.45", "NE", "NE"],
+        ["Proline", "1.30", "NE", "0.88"],
+        ["Valine", "2.13", "1.71", "0.57"],
+        ["Histidine", "1.10", "0.94", "0.59"],
+        ["Serine", "2.18", "0.94", "1.040"]
+      ],
+      "footnote": "TAA — Total Amino Acid · DAA — Digestible Amino Acid · NE — Not Evaluated"
+    },
+    "dosage": [
+      { "k": "Shrimp / Prawns", "v": "2 to 5 kg per ton of feed" },
+      { "k": "Fish", "v": "1 to 3 kg per ton of feed" },
+      { "k": "Swine / Piglets", "v": "2 to 5 kg per ton of feed" },
+      { "k": "Poultry / Cattle", "v": "1 to 3 kg per ton of feed" },
+      { "k": "Broiler", "v": "2 kg per ton of feed" },
+      { "k": "Pet foods", "v": "2 to 5 kg per ton of feed" }
+    ],
+    "inclusionAlt": [
+      "Poultry feed — broilers and layers: 1.0 % – 2.5 % of total feed",
+      "Aqua feed — shrimp, eels & fish: 2.5 % – 5.0 % of total feed",
+      "Swine — piglets & sows: 2.5 % – 5.0 % of total feed",
+      "Bovines — beef & dairy cattle: 250 g / head / day",
+      "Pet food — dog & cat: 2.5 % – 5.0 % of total feed"
+    ],
+    "application": "Incorporate with feed",
+    "storage": "Keep in a cool, dry and aerated place, free of insects and stacked over pallets",
+    "shelfLife": "12 months from production date (24 months when stored per the method of analysis sheet)",
+    "packing": "25 kg & 40 kg HDPE paper bags with liner",
+    "analysis": [
+      { "k": "% Total nitrogen", "v": "6.4", "m": "AOAC 984.13, 1995" },
+      { "k": "% Protein", "v": "40 %", "m": "AOAC 990.03, 1995" },
+      { "k": "% Total ash", "v": "4.0", "m": "AOAC 942.05, 1995" },
+      { "k": "pH (5 % solution)", "v": "5.0 – 6.0", "m": "AOAC 973.04" },
+      { "k": "Heavy metals", "v": "Absent", "m": "Spectrometry" },
+      { "k": "Total bacterial count / g", "v": "< 35 000 cfu/g", "m": "Method 5, 1992" },
+      { "k": "E. coli & Salmonella / g", "v": "Absent", "m": "Method 3 & 4, 1992" },
+      { "k": "Moulds / g", "v": "< 300 cfu/g", "m": "Method 6, 2004" }
+    ],
+    "documents": [
+      { "label": "Product brochure (page 1)", "href": "/docs/brochure-nutriments-mdy-p1.pdf" },
+      { "label": "Product brochure (page 2)", "href": "/docs/brochure-nutriments-mdy-p2.pdf" }
+    ]
+  },
+  {
+    "slug": "nutrisacc",
+    "name": "Nutrisacc",
+    "trademark": false,
+    "subtitle": "Saccharomyces cerevisiae",
+    "descriptor": "Dried Yeast Concentrate",
+    "category": "inactive-dried-yeast",
+    "species": ["poultry", "swine", "cattle", "fish"],
+    "featured": true,
+    "order": 2,
+    "image": "/images/products/nutrisacc.jpg",
+    "imageAlt": "Nutrisacc dried Saccharomyces cerevisiae powder, pale olive-brown, spread on paper",
+    "gallery": [
+      { "src": "/images/products/nutrisacc.jpg", "alt": "Nutrisacc dried yeast powder" },
+      { "src": "/images/products/bag-front.jpg", "alt": "25 kg HDPE bag with liner used for bulk yeast lines" }
+    ],
+    "summary": "A dried Saccharomyces cerevisiae concentrate for feed millers who want yeast protein, β-glucans and mannan-rich cell wall in a single, free-flowing ingredient.",
+    "pitch": "Nutrisacc carries the whole yeast cell — protein, nucleotides and the β-glucan/mannan cell wall — into compound feed. Because the cells are inactivated, the material is heat-tolerant through pelleting and completely unaffected by in-feed antibiotics.",
+    "appearance": "Pale olive-brown free-flowing powder",
+    "ingredients": "Saccharomyces cerevisiae",
+    "microbial": "Saccharomyces cerevisiae, inactivated whole cell",
+    "benefits": [
+      "Yeast protein with a naturally balanced amino acid profile",
+      "β-glucan and mannan cell wall acts as an immuno-stimulant",
+      "Binds pathogenic bacteria in the gut lumen",
+      "Improves palatability and feed intake",
+      "Unaffected by antibiotics used in the ration",
+      "Heat-stable through standard pelleting"
+    ],
+    "specs": [
+      { "group": "Character", "unit": "", "rows": [
+        { "k": "Base organism", "v": "Saccharomyces cerevisiae" },
+        { "k": "Form", "v": "Dried powder" },
+        { "k": "Cell wall fraction", "v": "β-glucans and mannan-oligosaccharides" },
+        { "k": "Antibiotic interaction", "v": "None — yeasts are not affected by antibiotics" }
+      ]}
+    ],
+    "dosage": [
+      { "k": "Poultry", "v": "1 to 3 kg per ton of feed" },
+      { "k": "Swine", "v": "2 to 5 kg per ton of feed" },
+      { "k": "Cattle", "v": "1 to 3 kg per ton of feed" },
+      { "k": "Fish", "v": "1 to 3 kg per ton of feed" }
+    ],
+    "application": "Incorporate with feed at the mixer",
+    "storage": "Keep in a cool and dry place",
+    "shelfLife": "12 months from production date",
+    "packing": "25 kg HDPE paper bags with liner",
+    "specSheetOnRequest": true
+  },
+  {
+    "slug": "sacc-aqua-plus",
+    "name": "Sacc-Aqua +",
+    "trademark": false,
+    "subtitle": "Yeast Culture",
+    "descriptor": "Aquaculture Yeast Culture",
+    "category": "yeast-culture",
+    "species": ["shrimp", "fish"],
+    "featured": true,
+    "order": 3,
+    "image": "/images/products/sacc-aqua-plus.jpg",
+    "imageAlt": "Sacc-Aqua+ yeast culture, a pale golden powder spread in a circle on white paper",
+    "gallery": [
+      { "src": "/images/products/sacc-aqua-plus.jpg", "alt": "Sacc-Aqua+ yeast culture powder" },
+      { "src": "/images/products/label-sacc-aqua-plus-front.jpg", "alt": "Sacc-Aqua+ 1 kg pack label, front — composition and analysis" },
+      { "src": "/images/products/label-sacc-aqua-plus-back.jpg", "alt": "Sacc-Aqua+ 1 kg pack label, back — probiotic-free gut booster claim" }
+    ],
+    "summary": "A yeast culture built for shrimp and fish: Saccharomyces cerevisiae grown on cane molasses, fruits and corn syrup, delivered with its fermentation media intact.",
+    "pitch": "Sacc-Aqua+ is a probiotic-free gut booster. Instead of introducing live bacteria into the pond, it stimulates the animal's own gut flora, optimises nutrient absorption and supports growth — which is exactly what you want in a system where water quality and disease pressure decide the crop.",
+    "appearance": "Pale golden free-flowing powder",
+    "ingredients": "Saccharomyces cerevisiae grown on cane molasses, fruits and corn syrup",
+    "microbial": "Saccharomyces cerevisiae: 35 × 10³ cfu/g",
+    "benefits": [
+      "Higher survival and growth rate",
+      "Better feed intake",
+      "Improves efficiency of the digestive system",
+      "Faster digestion and absorption of nutrients",
+      "Higher feed consumption with better FCR",
+      "Faster growth and weight gain",
+      "Reduces the pathogenic bacterial loads in gut",
+      "Improves health and immunity of fish and shrimp"
+    ],
+    "claims": [
+      "Does not contain antibiotics",
+      "Does not contain hormones",
+      "For aquaculture animal use only",
+      "Not for human consumption"
+    ],
+    "specs": [
+      { "group": "Typical analysis", "unit": "", "rows": [
+        { "k": "Crude Protein", "v": "40 %" },
+        { "k": "Crude Fibre", "v": "6.0 %" },
+        { "k": "Total Ash", "v": "4.0 %" },
+        { "k": "Heavy metals", "v": "None" }
+      ]},
+      { "group": "Minerals", "unit": "", "rows": [
+        { "k": "Calcium as Ca", "v": "442.4 mg/100 g" },
+        { "k": "Phosphorus as P", "v": "903.7 mg/100 g" },
+        { "k": "Iron as Fe", "v": "137.8 mg/100 g" },
+        { "k": "Copper as Cu", "v": "16.1 mg/kg" },
+        { "k": "Manganese as Mn", "v": "71.8 mg/kg" }
+      ]},
+      { "group": "Vitamins", "unit": "", "rows": [
+        { "k": "Vitamin A (retinyl acetate)", "v": "5000 IU/kg" }
+      ]}
+    ],
+    "aminoAcids": {
+      "columns": ["Amino acid (%)", "TAA"],
+      "rows": [
+        ["Lysine", "2.92"],
+        ["Tryptophan", "0.45"],
+        ["Isoleucine", "2.58"],
+        ["Phenylalanine", "1.68"],
+        ["Leucine", "2.58"],
+        ["Histidine", "1.10"],
+        ["Methionine", "0.71"],
+        ["Threonine", "2.29"],
+        ["Valine", "2.13"]
+      ],
+      "footnote": "TAA — Total Amino Acid"
+    },
+    "dosage": [
+      { "k": "Shrimp", "v": "10 g per kg of feed" },
+      { "k": "Fish", "v": "5 g per kg of feed" },
+      { "k": "Pond preparation", "v": "0.05 ppm to 0.5 ppm" }
+    ],
+    "application": "Top-dress or incorporate with feed; broadcast for pond preparation",
+    "storage": "Keep in a cool and dry place",
+    "shelfLife": "12 months from production date",
+    "packing": "1 kg pack; bulk packing available on request"
+  },
+  {
+    "slug": "sunshine-aqua-plus",
+    "name": "Sunshine Aqua +",
+    "trademark": false,
+    "subtitle": "Gut Pro Booster",
+    "descriptor": "Multi-strain Probiotic",
+    "category": "probiotics",
+    "species": ["shrimp", "fish"],
+    "featured": true,
+    "order": 4,
+    "image": "/images/products/sunshine-aqua-plus.jpg",
+    "imageAlt": "Sunshine Aqua+ gut pro booster, an olive-tan powder spread on paper",
+    "gallery": [
+      { "src": "/images/products/sunshine-aqua-plus.jpg", "alt": "Sunshine Aqua+ gut pro booster powder" },
+      { "src": "/images/products/label-sunshine-aqua-plus.jpg", "alt": "Sunshine Aqua+ pack label showing the six-strain composition" }
+    ],
+    "summary": "A six-strain consortium of Bacillus, Lactobacillus and Saccharomyces built to colonise the shrimp and fish gut and hold pathogenic load down.",
+    "pitch": "Where Sacc-Aqua+ works without live organisms, Sunshine Aqua+ takes the opposite route: six defined strains at a combined 280 × 10³ cfu/g, formulated to survive pellet mill and extruder conditions so the count that leaves our plant is close to the count that reaches the animal.",
+    "appearance": "Olive-tan free-flowing powder",
+    "ingredients": "Bacillus licheniformis, Bacillus subtilis, Lactobacillus acidophilus, Lactobacillus sporogenes, Saccharomyces boulardii, Saccharomyces cerevisiae",
+    "microbial": "Combined viable count 280 × 10³ cfu/g",
+    "benefits": [
+      "Higher survival and growth rate",
+      "Better feed intake",
+      "Improves efficiency of the digestive system",
+      "Faster digestion and absorption of nutrients",
+      "Higher feed consumption with better FCR",
+      "Faster growth and weight gain",
+      "Reduces the pathogenic bacterial loads in gut",
+      "Improves health and immunity of fish and shrimp"
+    ],
+    "specs": [
+      { "group": "Ingredients and composition", "unit": "cfu/g", "rows": [
+        { "k": "Bacillus licheniformis", "v": "50 × 10³" },
+        { "k": "Bacillus subtilis", "v": "50 × 10³" },
+        { "k": "Lactobacillus acidophilus", "v": "75 × 10³" },
+        { "k": "Lactobacillus sporogenes", "v": "50 × 10³" },
+        { "k": "Saccharomyces boulardii", "v": "20 × 10³" },
+        { "k": "Saccharomyces cerevisiae", "v": "35 × 10³" }
+      ]}
+    ],
+    "dosage": [
+      { "k": "Shrimp / Prawns", "v": "1 to 2 kg per ton of feed" },
+      { "k": "Fish", "v": "0.5 to 1 kg per ton of feed" }
+    ],
+    "applicationMethods": [
+      "Spray-dry method with feed at farm level",
+      "Incorporate with mash in pellet mill operation (> 95 °C)",
+      "Add with coater in extruder operation (< 135 °C)"
+    ],
+    "application": "See application methods",
+    "storage": "Keep in a cool and dry place",
+    "shelfLife": "12 months from production date",
+    "packing": "1 kg and 25 kg packs"
+  },
+  {
+    "slug": "nutrimins-dmm",
+    "name": "Nutrimins-DMM",
+    "trademark": true,
+    "subtitle": "Dried Minerals Mix",
+    "descriptor": "Cattle Feed Supplement",
+    "category": "mineral-mix",
+    "species": ["cattle"],
+    "featured": true,
+    "order": 5,
+    "image": "/images/products/nutrimins-dmm.jpg",
+    "imageAlt": "Nutrimins-DMM dried minerals mix, a fine olive-brown powder",
+    "gallery": [
+      { "src": "/images/products/nutrimins-dmm.jpg", "alt": "Nutrimins-DMM dried minerals mix powder" },
+      { "src": "/images/products/label-nutrimins-dmm.jpg", "alt": "Nutrimins-DMM 25 kg bag artwork, front and back panels" },
+      { "src": "/images/certificates/nutrimins-coa.jpg", "alt": "TANUVAS certificate of analysis for Nutrimins-DMM" }
+    ],
+    "summary": "A dried minerals mix for beef and dairy cattle, carrying macro and trace minerals on a digestible organic base rather than a plain inorganic carrier.",
+    "pitch": "Registered under Trade Mark No. 4064646, Nutrimins-DMM is our livestock line. It has been independently assayed by the Animal Feed Analytical and Quality Assurance Laboratory at TANUVAS, Namakkal — including a full mycotoxin panel, all not detected.",
+    "appearance": "Fine olive-brown powder",
+    "ingredients": "Dried minerals mix for livestock nutrition",
+    "benefits": [
+      "Higher survival and growth rate",
+      "Increased weight gain",
+      "Improves efficiency of the digestive system",
+      "Faster digestion and absorption of nutrients",
+      "Higher feed consumption with better FCR",
+      "Reduces the pathogenic bacterial loads in gut",
+      "Enhances immunity and controls stress"
+    ],
+    "specs": [
+      { "group": "Ingredients and composition (label)", "unit": "", "rows": [
+        { "k": "Gross energy", "v": "3867 kcal/kg" },
+        { "k": "Crude Protein", "v": "18 % Max" },
+        { "k": "Crude Fibre", "v": "15 % Max" },
+        { "k": "Ether Extract", "v": "2 % Max" },
+        { "k": "Moisture", "v": "10 % Max" },
+        { "k": "Calcium", "v": "0.50 %" },
+        { "k": "Phosphorus", "v": "2 %" },
+        { "k": "Iron", "v": "283 ppm" },
+        { "k": "Copper", "v": "23 ppm" },
+        { "k": "Manganese", "v": "69 ppm" }
+      ]}
+    ],
+    "dosage": [
+      { "k": "Bovines — beef & dairy cattle", "v": "500 g to 1 kg per head per day" }
+    ],
+    "application": "Incorporate with feed",
+    "storage": "Keep in a cool and dry place. Use no hooks.",
+    "shelfLife": "24 months from production date",
+    "packing": "25 kg bags",
+    "analysis": [
+      { "k": "Moisture", "v": "15.67 %", "m": "AOAC 930.15" },
+      { "k": "Crude Protein", "v": "9.59 %", "m": "AOAC 984.13" },
+      { "k": "Crude Fibre", "v": "1.88 %", "m": "AOAC 962.09" },
+      { "k": "Ether Extract", "v": "1.14 %", "m": "AOAC 2003.06" },
+      { "k": "Total Ash", "v": "50.73 %", "m": "IS 14827-2000" },
+      { "k": "Acid Insoluble Ash", "v": "31.21 %", "m": "IS 14826-2000" },
+      { "k": "Calcium", "v": "9.77 %", "m": "AOAC 927.02" },
+      { "k": "Phosphorus", "v": "0.62 %", "m": "AOAC 965.17" },
+      { "k": "Iron", "v": "283 ppm", "m": "—" },
+      { "k": "Copper", "v": "23 ppm", "m": "—" },
+      { "k": "Manganese", "v": "69 ppm", "m": "—" },
+      { "k": "Salt", "v": "0.77 %", "m": "AOAC 943.01" },
+      { "k": "Aflatoxin B1, B2, G1, G2", "v": "Not detected", "m": "In-house" },
+      { "k": "Ochratoxin, T-2 toxin, Citrinin, Zearalenone", "v": "Not detected", "m": "In-house" }
+    ],
+    "analysisNote": "Certificate of Analysis — Lab Ref. 21772, ULR TC505319000001451P, Animal Feed Analytical and Quality Assurance Laboratory, Veterinary College and Research Institute, TANUVAS, Namakkal.",
+    "animalUseOnly": true
+  }
+]
