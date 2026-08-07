@@ -55,7 +55,7 @@ const TIMELINE = [
   {
     year: "2023",
     title: "Vannamei field project",
-    body: "A vannamei shrimp project run with Sacc-Aqua+ proved the product to the south Indian shrimp market — feed intake, FCR and metabolism held through the culture.",
+    body: "A vannamei shrimp project run on our own yeast supplements proved them to the south Indian shrimp market — feed intake, FCR and metabolism held through the culture.",
   },
   {
     year: "2025",

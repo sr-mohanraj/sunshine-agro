@@ -6,9 +6,9 @@ import { CatalogClient } from "@/components/products/CatalogClient";
 import { PRODUCTS } from "@/lib/products";
 
 export const metadata: Metadata = {
-  title: "Products — Inactive Dried Yeast, Yeast Culture, Probiotics & Mineral Mixes",
+  title: "Products — Inactive Dried Yeast, Probiotics & Mineral Mixes",
   description:
-    "The full Sunshine Agro Products range: Nutriments-MDY molasses dried yeast, Nutrisacc, Sacc-Aqua+ yeast culture, Sunshine Aqua+ gut pro booster and Nutrimins-DMM dried minerals mix.",
+    "The full Sunshine Agro Products range: Nutriments-MDY molasses dried yeast, Sunshine Aqua+ gut pro booster and Nutrimins-DMM dried minerals mix.",
 };
 
 export default function ProductsPage() {

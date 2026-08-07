@@ -5,8 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight } from "lucide-react";
 import clsx from "clsx";
-import { PRODUCTS } from "@/lib/products";
-import { CATEGORIES } from "@/lib/taxonomy";
+import { ACTIVE_CATEGORIES, PRODUCTS } from "@/lib/products";
 
 /**
  * The standing product column. It repeats on every /products route so the full
@@ -27,12 +26,12 @@ export function ProductColumn({ className }: { className?: string }) {
             Product range
           </p>
           <p className="mt-1 font-display text-base font-bold text-bone-100">
-            {PRODUCTS.length} lines · {CATEGORIES.length} categories
+            {PRODUCTS.length} lines · {ACTIVE_CATEGORIES.length} categories
           </p>
         </div>
 
         <nav className="divide-y divide-ink-100 dark:divide-ink-700">
-          {CATEGORIES.map((cat) => {
+          {ACTIVE_CATEGORIES.map((cat) => {
             const items = PRODUCTS.filter((p) => p.category === cat.id);
             if (!items.length) return null;
 

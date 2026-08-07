@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { PRODUCTS } from "@/lib/products";
-import { CATEGORIES } from "@/lib/taxonomy";
+import { ACTIVE_CATEGORIES, PRODUCTS } from "@/lib/products";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Reveal } from "@/components/Reveal";
 import { ProductCard } from "@/components/products/ProductCard";
@@ -15,11 +14,11 @@ export function ProductShowcase() {
             eyebrow="The range"
             title={
               <>
-                Five product lines,
+                Three product lines,
                 <br className="hidden sm:block" /> one fermentation platform.
               </>
             }
-            lead="Everything we make starts from the same place — Saccharomyces cerevisiae grown on cane molasses. What changes is how it is finished: whole inactivated cell, live yeast culture, multi-strain consortium, or a mineral carrier for ruminants."
+            lead="Everything we make starts from the same place — Saccharomyces cerevisiae grown on cane molasses. What changes is how it is finished: whole inactivated cell, multi-strain consortium, or a mineral carrier for ruminants."
           />
           <Reveal delay={0.15}>
             <Link
@@ -33,8 +32,8 @@ export function ProductShowcase() {
         </div>
 
         {/* Category strip: orients a first-time visitor before they hit the grid. */}
-        <ul className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {CATEGORIES.map((cat, i) => (
+        <ul className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {ACTIVE_CATEGORIES.map((cat, i) => (
             <Reveal
               as="li"
               key={cat.id}
@@ -58,21 +57,25 @@ export function ProductShowcase() {
             </Reveal>
           ))}
 
-          {/* Sixth cell keeps the 3-column grid balanced and doubles as a CTA. */}
+          {/* Spans the full row rather than sitting as a lone trailing cell, so
+              the band reads as a deliberate closer to the grid whatever number
+              of products is live. */}
           <Reveal
             delay={0.16}
-            className="hidden rounded-2xl border border-dashed border-ink-200 p-8 dark:border-ink-600 xl:flex xl:flex-col xl:justify-center"
+            className="flex flex-col gap-5 rounded-2xl border border-dashed border-ink-200 p-8 dark:border-ink-600 md:col-span-2 lg:flex-row lg:items-center lg:justify-between lg:gap-10 xl:col-span-3"
           >
-            <p className="font-display text-xl font-bold leading-snug text-ink-900 dark:text-bone-100">
-              Need a blend to your own specification?
-            </p>
-            <p className="mt-3 text-sm leading-relaxed text-ink-500 dark:text-bone-200/65">
-              We run private-label and custom-inclusion batches out of the Erode
-              plant — send us your target analysis and pack size.
-            </p>
+            <div>
+              <p className="font-display text-xl font-bold leading-snug text-ink-900 dark:text-bone-100">
+                Need a blend to your own specification?
+              </p>
+              <p className="mt-2 max-w-xl text-sm leading-relaxed text-ink-500 dark:text-bone-200/65">
+                We run private-label and custom-inclusion batches out of the Erode
+                plant — send us your target analysis and pack size.
+              </p>
+            </div>
             <Link
               href="/contact?intent=custom"
-              className="focus-ring mt-6 inline-flex items-center gap-2 self-start rounded-full bg-ink-900 px-5 py-3 text-sm font-semibold text-bone-100 transition-colors hover:bg-ink-700 dark:bg-bone-100 dark:text-ink-900 dark:hover:bg-bone-300"
+              className="focus-ring inline-flex shrink-0 items-center gap-2 self-start rounded-full bg-ink-900 px-5 py-3 text-sm font-semibold text-bone-100 transition-colors hover:bg-ink-700 dark:bg-bone-100 dark:text-ink-900 dark:hover:bg-bone-300 lg:self-auto"
             >
               Start a conversation
               <ArrowRight className="h-4 w-4" aria-hidden />

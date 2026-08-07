@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { SlidersHorizontal, X } from "lucide-react";
 import clsx from "clsx";
 import type { Product } from "@/lib/types";
-import { CATEGORIES, SPECIES } from "@/lib/taxonomy";
+import { ACTIVE_CATEGORIES, ACTIVE_SPECIES } from "@/lib/products";
 import { ProductCard } from "./ProductCard";
 
 type Props = { products: Product[] };
@@ -50,13 +50,13 @@ export function CatalogClient({ products }: Props) {
 
         <FilterRow
           label="Category"
-          options={CATEGORIES.map((c) => ({ id: c.id, label: c.label }))}
+          options={ACTIVE_CATEGORIES.map((c) => ({ id: c.id, label: c.label }))}
           value={category}
           onChange={setCategory}
         />
         <FilterRow
           label="Species"
-          options={SPECIES.map((s) => ({ id: s.id, label: s.label }))}
+          options={ACTIVE_SPECIES.map((s) => ({ id: s.id, label: s.label }))}
           value={species}
           onChange={setSpecies}
         />

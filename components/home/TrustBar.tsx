@@ -1,6 +1,15 @@
 import company from "@/data/company.json";
+import { PRODUCTS } from "@/lib/products";
 import { CountUp } from "@/components/CountUp";
 import { Reveal } from "@/components/Reveal";
+
+/**
+ * Most stat tiles are plain facts, but the product-line count has to track the
+ * catalogue — a tile marked `auto: "products"` reads the live count so retiring
+ * a line can't leave a stale number on the homepage.
+ */
+const valueOf = (stat: { value: number; auto?: string }) =>
+  stat.auto === "products" ? PRODUCTS.length : stat.value;
 
 export function TrustBar() {
   return (
@@ -13,7 +22,7 @@ export function TrustBar() {
             className="border-ink-100 px-1 py-8 dark:border-ink-700 sm:px-4 sm:py-10 [&:nth-child(odd)]:border-r lg:border-r lg:last:border-r-0"
           >
             <p className="font-display text-[clamp(1.85rem,4.2vw,2.75rem)] font-extrabold leading-none tracking-[-0.03em] text-ink-900 dark:text-bone-100">
-              <CountUp to={stat.value} suffix={stat.suffix} />
+              <CountUp to={valueOf(stat)} suffix={stat.suffix} />
             </p>
             <p className="mt-2 font-mono text-[11px] uppercase tracking-[0.14em] text-sun-600 dark:text-sun-300">
               {stat.label}

@@ -14,7 +14,7 @@
   "stats": [
     { "value": 2003, "suffix": "", "label": "Established", "note": "Two decades in animal nutrition" },
     { "value": 100, "suffix": " MT", "label": "Capacity per day", "note": "Erode manufacturing facility" },
-    { "value": 5, "suffix": "", "label": "Product lines", "note": "Yeast, probiotics & mineral mixes" },
+    { "value": 3, "suffix": "", "label": "Product lines", "note": "Yeast, probiotics & mineral mixes", "auto": "products" },
     { "value": 40, "suffix": "%", "label": "Min crude protein", "note": "Nutriments-MDY typical analysis" }
   ],
   "addresses": [
