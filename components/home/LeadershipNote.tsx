@@ -11,8 +11,10 @@ export function LeadershipNote() {
       <div className="container-page">
         <Reveal className="mx-auto flex max-w-4xl flex-col items-center gap-8 text-center sm:flex-row sm:items-start sm:gap-10 sm:text-left">
           <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-2xl ring-1 ring-ink-100 dark:ring-ink-600 sm:h-32 sm:w-32">
+            {/* Square face crop rather than the 4:5 portrait: at 128px a centre
+                crop of the tall frame would cut the top of the head off. */}
             <Image
-              src={proprietor.image}
+              src={proprietor.imageSquare}
               alt={`${proprietor.name}, ${proprietor.role} of Sunshine Agro Products`}
               fill
               sizes="128px"

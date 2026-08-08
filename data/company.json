@@ -8,7 +8,8 @@
   "proprietor": {
     "name": "S.N. Senthil Kumar",
     "role": "Proprietor",
-    "image": "/images/team/sn-senthil-kumar.jpg",
+    "image": "/images/team/sn-senthil-kumar-portrait.jpg",
+    "imageSquare": "/images/team/sn-senthil-kumar-square.jpg",
     "quote": "The core purpose of our enterprise is to give the aqua industry an antibiotic-free supplement it can build a crop around."
   },
   "stats": [
