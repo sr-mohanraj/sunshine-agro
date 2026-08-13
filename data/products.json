@@ -9,12 +9,12 @@
     "species": ["shrimp", "fish", "poultry", "swine", "cattle", "pet"],
     "featured": true,
     "order": 1,
-    "image": "/images/products/nutriments-mdy.jpg",
-    "imageAlt": "Light brown Nutriments-MDY inactive dried yeast powder spread on white paper",
+    "image": "/images/products/mdy-bag.jpg",
+    "imageAlt": "Nutriments-MDY 25 kg bag, front and back panels",
     "gallery": [
+      { "src": "/images/products/mdy-bag-front.jpg", "alt": "Nutriments-MDY 25 kg bag, front panel with ingredients and composition" },
+      { "src": "/images/products/mdy-bag-back.jpg", "alt": "Nutriments-MDY 25 kg bag, back panel with advantages and dosages" },
       { "src": "/images/products/nutriments-mdy.jpg", "alt": "Nutriments-MDY light brown fine powder" },
-      { "src": "/images/products/bag-front.jpg", "alt": "25 kg Nutriments-MDY bag, front panel with composition" },
-      { "src": "/images/products/bag-back.jpg", "alt": "25 kg Nutriments-MDY bag, back panel with dosages" },
       { "src": "/images/products/nutriments-mdy-alt.jpg", "alt": "Close crop of Nutriments-MDY powder texture" }
     ],
     "summary": "A natural fermentation product made of 100% Saccharomyces cerevisiae cells grown on sugar cane molasses — a high-value protein source with a balanced amino acid profile and the best natural source of B vitamins.",
@@ -193,11 +193,12 @@
     "species": ["cattle"],
     "featured": true,
     "order": 3,
-    "image": "/images/products/nutrimins-dmm.jpg",
-    "imageAlt": "Nutrimins-DMM dried minerals mix, a fine olive-brown powder",
+    "image": "/images/products/dmm-bag.jpg",
+    "imageAlt": "Nutrimins-DMM 25 kg bags, front and back panels",
     "gallery": [
+      { "src": "/images/products/dmm-bag.jpg", "alt": "Nutrimins-DMM 25 kg bags showing composition and dosages" },
       { "src": "/images/products/nutrimins-dmm.jpg", "alt": "Nutrimins-DMM dried minerals mix powder" },
-      { "src": "/images/products/label-nutrimins-dmm.jpg", "alt": "Nutrimins-DMM 25 kg bag artwork, front and back panels" },
+      { "src": "/images/products/label-nutrimins-dmm.jpg", "alt": "Nutrimins-DMM bag artwork, front and back panels" },
       { "src": "/images/certificates/nutrimins-coa.jpg", "alt": "TANUVAS certificate of analysis for Nutrimins-DMM" }
     ],
     "summary": "A dried minerals mix for beef and dairy cattle, carrying macro and trace minerals on a digestible organic base rather than a plain inorganic carrier.",
