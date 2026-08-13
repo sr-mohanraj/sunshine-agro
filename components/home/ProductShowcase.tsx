@@ -14,11 +14,11 @@ export function ProductShowcase() {
             eyebrow="The range"
             title={
               <>
-                Three product lines,
-                <br className="hidden sm:block" /> one fermentation platform.
+                {PRODUCTS.length} product lines for aqua,
+                <br className="hidden sm:block" /> poultry and livestock.
               </>
             }
-            lead="Everything we make starts from the same place — Saccharomyces cerevisiae grown on cane molasses. What changes is how it is finished: whole inactivated cell, multi-strain consortium, or a mineral carrier for ruminants."
+            lead="Most of what we make starts as Saccharomyces cerevisiae grown on cane molasses, finished as a whole inactivated cell, a multi-strain consortium or a mineral carrier for ruminants. Sun Calci Gold is the exception — an oral gel drenched at calving rather than mixed into the ration."
           />
           <Reveal delay={0.15}>
             <Link
@@ -32,7 +32,9 @@ export function ProductShowcase() {
         </div>
 
         {/* Category strip: orients a first-time visitor before they hit the grid. */}
-        <ul className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {/* auto-fit rather than a fixed column count, so the strip stays evenly
+            filled whether the range has three categories or five. */}
+        <ul className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-3">
           {ACTIVE_CATEGORIES.map((cat, i) => (
             <Reveal
               as="li"

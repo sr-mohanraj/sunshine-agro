@@ -202,7 +202,7 @@ export default function ManufacturingPage() {
             <dl className="mt-8 space-y-4">
               {[
                 { k: "Bulk lines", v: "25 kg & 40 kg HDPE paper bags with inner liner" },
-                { k: "Farm packs", v: "1 kg packs for Sunshine Aqua+" },
+                { k: "Farm packs", v: "1 kg packs for Sunshine Aqua+; 300 g bottles for Sun Calci Gold" },
                 { k: "Palletising", v: "Wooden pallets, shrink-wrapped and strapped" },
                 { k: "Handling", v: "Use no hooks; stack over pallets, away from insects" },
               ].map((row) => (

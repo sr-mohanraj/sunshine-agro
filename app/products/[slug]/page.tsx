@@ -173,7 +173,10 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
 
             {facts.length > 0 && (
               <Reveal delay={0.05}>
-                <dl className="mt-10 grid gap-px overflow-hidden rounded-2xl border border-ink-100 bg-ink-100 dark:border-ink-700 dark:bg-ink-700 sm:grid-cols-2 lg:grid-cols-4">
+                {/* auto-fit, not a fixed 4 columns: products carry different
+                    numbers of facts, and a fixed count leaves the container
+                    background showing through as an empty grey cell. */}
+                <dl className="mt-10 grid grid-cols-[repeat(auto-fit,minmax(210px,1fr))] gap-px overflow-hidden rounded-2xl border border-ink-100 bg-ink-100 dark:border-ink-700 dark:bg-ink-700">
                   {facts.map((f) => (
                     <div key={f.label} className="bg-bone-100 p-5 dark:bg-ink-900">
                       <dt className="flex items-center gap-2 font-mono text-[10.5px] uppercase tracking-[0.14em] text-ink-400 dark:text-bone-200/45">
@@ -202,9 +205,37 @@ export default function ProductPage({ params }: { params: { slug: string } }) {
               </Section>
             )}
 
+            {product.indications && product.indications.length > 0 && (
+              <Section title="Indicated for">
+                <ul className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
+                  {product.indications.map((c) => (
+                    <li
+                      key={c}
+                      className="flex gap-2.5 text-sm text-ink-600 dark:text-bone-200/75"
+                    >
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-sun-500" />
+                      {c}
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-4 text-[13px] text-ink-400 dark:text-bone-200/50">
+                  Animal feed supplement — not for medicinal use. Use under the advice
+                  of a veterinarian or animal nutritionist.
+                </p>
+              </Section>
+            )}
+
             {product.specs && product.specs.length > 0 && (
               <Section title="Typical composition">
-                <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+                {/* A lone spec group stretched across three columns reads as an
+                    unfinished row, so a single table is capped and left-aligned. */}
+                <div
+                  className={
+                    product.specs.length === 1
+                      ? "grid max-w-xl gap-4"
+                      : "grid gap-4 md:grid-cols-2 xl:grid-cols-3"
+                  }
+                >
                   {product.specs.map((g) => (
                     <SpecTable key={g.group} group={g} />
                   ))}

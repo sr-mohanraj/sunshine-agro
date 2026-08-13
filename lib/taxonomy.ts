@@ -27,6 +27,13 @@ export const CATEGORIES = [
     blurb:
       "Macro and trace mineral supplements for ruminants, assayed by an accredited government feed laboratory.",
   },
+  {
+    id: "oral-supplement",
+    label: "Oral Supplements",
+    short: "Oral Gel",
+    blurb:
+      "Single-dose oral gels for the transition period — calcium, energy and trace minerals given straight to the animal rather than through the ration.",
+  },
 ] as const;
 
 export type CategoryId = (typeof CATEGORIES)[number]["id"];

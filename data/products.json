@@ -253,4 +253,80 @@
     "analysisNote": "Certificate of Analysis — Lab Ref. 21772, ULR TC505319000001451P, Animal Feed Analytical and Quality Assurance Laboratory, Veterinary College and Research Institute, TANUVAS, Namakkal.",
     "animalUseOnly": true
   }
+,
+  {
+    "slug": "sun-calci-gold",
+    "name": "Sun Calci Gold",
+    "trademark": false,
+    "subtitle": "Oral Calcium, Phosphorus, Magnesium & Energy Gel",
+    "descriptor": "Oral Transition Gel",
+    "category": "oral-supplement",
+    "species": ["cattle"],
+    "featured": true,
+    "order": 4,
+    "image": "/images/products/calci-gold.jpg",
+    "imageAlt": "Bottles of Sun Calci Gold oral calcium gel, 300 g, lined up on a counter",
+    "gallery": [
+      { "src": "/images/products/calci-gold.jpg", "alt": "Sun Calci Gold 300 g bottles, label facing forward" },
+      { "src": "/images/products/label-calci-gold-front.jpg", "alt": "Sun Calci Gold product sheet showing composition, benefits and directions for use" },
+      { "src": "/images/products/label-calci-gold-back.jpg", "alt": "Sun Calci Gold full label artwork with composition and cautions" },
+      { "src": "/images/products/calci-gold-bottles.jpg", "alt": "A production batch of Sun Calci Gold bottles" }
+    ],
+    "summary": "A chocolate-flavoured oral gel for dairy cattle and buffaloes around calving — 30 g of available calcium with phosphorus, magnesium and an instant energy base in a single 300 g bottle.",
+    "pitch": "The one product in our range that is not mixed into feed. Calci Gold is drenched directly, which is what the transition period demands: at calving you need blood calcium held up within hours, not over a feeding cycle. Dextrose and propylene glycol carry the minerals in on an instant energy base, and the chocolate flavour is there so the animal takes the dose.",
+    "appearance": "Smooth brown gel, delicious chocolate flavour",
+    "ingredients": "Calcium, phosphorus and magnesium salts with vitamin D3, B12, biotin, zinc and cobalt on a molasses and dextrose base",
+    "benefits": [
+      "Prevents milk fever — helps maintain normal calcium levels in blood",
+      "Supports milk production — improves milk yield and quality",
+      "Faster recovery — helps the animal recover quickly after calving",
+      "Better uterine health — supports normal uterine contraction and expulsion of placenta",
+      "Energy booster — instant energy from dextrose and propylene glycol",
+      "Improves fertility — helps improve conception rate and reproductive health"
+    ],
+    "indications": [
+      "Hypocalcaemia",
+      "Sudden drop in milk production",
+      "Prolapse and retention of placenta",
+      "Hypothermia (low temperature)",
+      "Supportive therapy for blood clotting"
+    ],
+    "claims": [
+      "For animal use only",
+      "Not for human use",
+      "Not for medicinal use",
+      "Keep out of reach of children"
+    ],
+    "specs": [
+      { "group": "Each 300 g contains", "unit": "", "rows": [
+        { "k": "Calcium (available)", "v": "30 000 mg" },
+        { "k": "Phosphorus", "v": "15 000 mg" },
+        { "k": "Magnesium", "v": "6 000 mg" },
+        { "k": "Vitamin D3", "v": "15 000 IU" },
+        { "k": "Vitamin B12", "v": "500 mcg" },
+        { "k": "Biotin", "v": "500 mcg" },
+        { "k": "Zinc", "v": "500 mg" },
+        { "k": "Cobalt", "v": "50 mg" },
+        { "k": "Dextrose", "v": "30 g" },
+        { "k": "Propylene glycol", "v": "20 g" },
+        { "k": "Molasses base", "v": "q.s." },
+        { "k": "Flavouring agent", "v": "q.s." }
+      ]}
+    ],
+    "dosage": [
+      { "k": "Before calving", "v": "1 bottle (300 g), 12–24 hours before expected calving" },
+      { "k": "After calving", "v": "1 bottle (300 g) immediately, repeat after 12 hours if required" },
+      { "k": "High yielding animals", "v": "As advised by a veterinarian or animal nutritionist" }
+    ],
+    "applicationMethods": [
+      "Give orally, straight from the bottle — not mixed with feed",
+      "Before calving, to prepare the animal for the transition",
+      "After calving, for quick recovery",
+      "During stress conditions — transport, heat, illness"
+    ],
+    "application": "Oral drench",
+    "storage": "Store in a cool, dry place away from direct sunlight",
+    "packing": "300 g bottle",
+    "animalUseOnly": true
+  }
 ]

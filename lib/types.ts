@@ -22,6 +22,8 @@ export type Product = {
   ingredients?: string;
   microbial?: string;
   benefits?: string[];
+  /** Conditions the label positions the product around, e.g. for an oral gel. */
+  indications?: string[];
   claims?: string[];
   specs?: SpecGroup[];
   aminoAcids?: {
