@@ -17,6 +17,10 @@ export type Product = {
   imageAlt: string;
   gallery?: GalleryImage[];
   summary: string;
+  /** Dedicated <meta name="description"> text — shorter and more literal than
+   * `summary`, which is written for on-page reading and runs long for a search
+   * snippet. Falls back to `summary` if omitted. */
+  metaDescription?: string;
   pitch?: string;
   appearance?: string;
   ingredients?: string;

@@ -9,7 +9,7 @@ import company from "@/data/company.json";
 export const metadata: Metadata = {
   title: "Manufacturing — 100 MT/day facility at Erode",
   description:
-    "Inside the Sunshine Agro Products manufacturing unit at Erode, Tamil Nadu: blending, milling, packing and a finished-goods store rated at 100 metric tons per day.",
+    "Inside our 100 MT/day Erode facility: molasses fermentation, milling, blending and packing for every Sunshine Agro Products feed supplement.",
 };
 
 const STEPS = [

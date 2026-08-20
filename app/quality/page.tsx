@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/Button";
 export const metadata: Metadata = {
   title: "Quality & Certifications — ISO 9001:2015",
   description:
-    "ISO 9001:2015 certification, registered trade mark, and independent certificates of analysis from the TANUVAS feed laboratory at Namakkal.",
+    "ISO 9001:2015 certification, a registered trade mark, and independent certificates of analysis from the TANUVAS feed laboratory at Namakkal.",
 };
 
 const CREDENTIALS = [

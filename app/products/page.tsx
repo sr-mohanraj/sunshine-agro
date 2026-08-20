@@ -8,7 +8,7 @@ import { PRODUCTS } from "@/lib/products";
 export const metadata: Metadata = {
   title: "Products — Inactive Dried Yeast, Probiotics, Mineral Mixes & Oral Gels",
   description:
-    "The full Sunshine Agro Products range: Nutriments-MDY molasses dried yeast, Sunshine Aqua+ gut pro booster, Nutrimins-DMM dried minerals mix and Sun Calci Gold oral calcium gel for dairy cattle.",
+    "Nutriments-MDY dried yeast, Sunshine Aqua+ probiotic, Nutrimins-DMM mineral mix and Sun Calci Gold oral gel — full specs, dosages and pricing on request.",
 };
 
 export default function ProductsPage() {

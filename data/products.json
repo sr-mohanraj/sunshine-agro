@@ -18,6 +18,7 @@
       { "src": "/images/products/nutriments-mdy-alt.jpg", "alt": "Close crop of Nutriments-MDY powder texture" }
     ],
     "summary": "A natural fermentation product made of 100% Saccharomyces cerevisiae cells grown on sugar cane molasses — a high-value protein source with a balanced amino acid profile and the best natural source of B vitamins.",
+    "metaDescription": "Nutriments-MDY: 100% Saccharomyces cerevisiae dried yeast grown on molasses, 40% min crude protein, for aqua, poultry, swine and cattle feed.",
     "pitch": "Our flagship inactive dried yeast. Spray-dried from molasses-grown Saccharomyces cerevisiae, it acts as a prophylactic micro-ingredient and immune-system booster while adding natural palatability that lifts feed intake and feed conversion.",
     "appearance": "Light brown coloured thin powder",
     "ingredients": "100% Saccharomyces cerevisiae",
@@ -145,6 +146,7 @@
       { "src": "/images/products/label-sunshine-aqua-plus.jpg", "alt": "Sunshine Aqua+ pack label showing the six-strain composition" }
     ],
     "summary": "A six-strain consortium of Bacillus, Lactobacillus and Saccharomyces built to colonise the shrimp and fish gut and hold pathogenic load down.",
+    "metaDescription": "Sunshine Aqua+: a six-strain Bacillus, Lactobacillus and Saccharomyces probiotic for shrimp and fish gut health, 280 x 10³ cfu/g combined count.",
     "pitch": "Six defined strains at a combined 280 × 10³ cfu/g, formulated to survive pellet mill and extruder conditions so the count that leaves our plant is close to the count that reaches the animal.",
     "appearance": "Olive-tan free-flowing powder",
     "ingredients": "Bacillus licheniformis, Bacillus subtilis, Lactobacillus acidophilus, Lactobacillus sporogenes, Saccharomyces boulardii, Saccharomyces cerevisiae",
@@ -202,6 +204,7 @@
       { "src": "/images/certificates/nutrimins-coa.jpg", "alt": "TANUVAS certificate of analysis for Nutrimins-DMM" }
     ],
     "summary": "A dried minerals mix for beef and dairy cattle, carrying macro and trace minerals on a digestible organic base rather than a plain inorganic carrier.",
+    "metaDescription": "Nutrimins-DMM: a registered dried minerals mix for beef and dairy cattle, independently assayed by the TANUVAS feed laboratory at Namakkal.",
     "pitch": "Registered under Trade Mark No. 4064646, Nutrimins-DMM is our livestock line. It has been independently assayed by the Animal Feed Analytical and Quality Assurance Laboratory at TANUVAS, Namakkal — including a full mycotoxin panel, all not detected.",
     "appearance": "Fine olive-brown powder",
     "ingredients": "Dried minerals mix for livestock nutrition",
@@ -274,6 +277,7 @@
       { "src": "/images/products/calci-gold-bottles.jpg", "alt": "A production batch of Sun Calci Gold bottles" }
     ],
     "summary": "A chocolate-flavoured oral gel for dairy cattle and buffaloes around calving — 30 g of available calcium with phosphorus, magnesium and an instant energy base in a single 300 g bottle.",
+    "metaDescription": "Sun Calci Gold: a 300g oral calcium, phosphorus and magnesium gel for dairy cattle and buffaloes at calving, with vitamin D3 and instant energy.",
     "pitch": "The one product in our range that is not mixed into feed. Calci Gold is drenched directly, which is what the transition period demands: at calving you need blood calcium held up within hours, not over a feeding cycle. Dextrose and propylene glycol carry the minerals in on an instant energy base, and the chocolate flavour is there so the animal takes the dose.",
     "appearance": "Smooth brown gel, delicious chocolate flavour",
     "ingredients": "Calcium, phosphorus and magnesium salts with vitamin D3, B12, biotin, zinc and cobalt on a molasses and dextrose base",

@@ -30,12 +30,17 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const product = getProduct(params.slug);
   if (!product) return {};
 
+  // metaDescription is written for a search snippet; summary is written for
+  // on-page reading and runs longer, so it's kept for the JSON-LD description
+  // below rather than for the truncation-sensitive meta and OG tags.
+  const description = product.metaDescription ?? product.summary;
+
   return {
     title: `${product.name} — ${product.subtitle}`,
-    description: product.summary,
+    description,
     openGraph: {
       title: `${product.name} — ${product.subtitle}`,
-      description: product.summary,
+      description,
       images: [{ url: product.image, alt: product.imageAlt }],
     },
   };

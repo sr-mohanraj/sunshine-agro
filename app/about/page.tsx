@@ -10,7 +10,7 @@ import { Reveal } from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "About — Two decades in animal nutrition",
   description:
-    "Sunshine Agro Products was established in 2003 at Chennai. An ISO 9001:2015 certified manufacturer of feed supplements for aqua, poultry, swine and livestock nutrition.",
+    "Sunshine Agro Products, established 2003 in Chennai: an ISO 9001:2015 certified manufacturer of feed supplements for aqua, poultry and livestock nutrition.",
 };
 
 const PILLARS = [

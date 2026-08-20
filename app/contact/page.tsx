@@ -9,7 +9,7 @@ import { EnquiryForm } from "@/components/contact/EnquiryForm";
 export const metadata: Metadata = {
   title: "Contact — Request a quote or a sample",
   description:
-    "Contact Sunshine Agro Products, Chennai and Erode, Tamil Nadu. Request pricing, samples or a batch certificate of analysis.",
+    "Request a quote, a sample or a batch certificate of analysis from Sunshine Agro Products — offices in Chennai and a manufacturing unit at Erode.",
 };
 
 export default function ContactPage() {
