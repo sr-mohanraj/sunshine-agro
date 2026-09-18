@@ -1,0 +1,80 @@
+[
+  {
+    "id": "iso-9001",
+    "title": "ISO 9001:2015",
+    "subtitle": "Quality Management Systems",
+    "issuer": "Royal Assessments Pvt. Ltd. (RAPL), accredited by EGAC",
+    "number": "E20250218146",
+    "issued": "6 February 2025",
+    "validUntil": "5 February 2028",
+    "scope": "Manufacturers of poultry, aqua, cattle feed supplements, livestock nutrients & sea food exporters.",
+    "image": "/images/certificates/iso-9001.jpg",
+    "pdf": "/docs/iso-9001-2015.pdf",
+    "verify": { "label": "iafcertsearch.org", "url": "https://www.iafcertsearch.org" }
+  },
+  {
+    "id": "gmp-plus",
+    "title": "GMP+",
+    "subtitle": "Production of Feed Ingredients",
+    "issuer": "UK Global Certification & Inspection Limited",
+    "number": "UQ-1220111E1",
+    "issued": "8 September 2026",
+    "validUntil": "7 September 2029",
+    "scope": "Manufacturers of dried brewer's yeast, Nutriments-MDY, Nutriments 40% CP IDY, Nutriments 50% CP IDY, Nutrimins DMM-MOS, PTPP Biotech toxin binder, Sacc Aqua+, yeast beta glucan and yeast extraction.",
+    "image": "/images/certificates/gmp-plus.jpg",
+    "pdf": "/docs/gmp-plus.pdf",
+    "verify": { "label": "ukglobal.uk", "url": "https://www.ukglobal.uk/searchresult.php" }
+  },
+  {
+    "id": "fami-qs",
+    "title": "FAMI-QS",
+    "subtitle": "Feed Safety Management System, FAMI-QS Code (Version 5.1)",
+    "issuer": "UK Global Certification & Inspection Limited",
+    "number": "UQ-1220111E2",
+    "issued": "8 September 2026",
+    "validUntil": "7 September 2029",
+    "scope": "Manufacturers of dried brewer's yeast, Nutriments-MDY, Nutriments 40% CP IDY, Nutriments 50% CP IDY, Nutrimins DMM-MOS, PTPP Biotech toxin binder, Sacc Aqua+, yeast beta glucan and yeast extraction.",
+    "image": "/images/certificates/fami-qs.jpg",
+    "pdf": "/docs/fami-qs.pdf",
+    "verify": { "label": "ukglobal.uk", "url": "https://www.ukglobal.uk/searchresult.php" }
+  },
+  {
+    "id": "haccp",
+    "title": "HACCP",
+    "subtitle": "Hazard Analysis and Critical Control Points",
+    "issuer": "Progressive International Certifications Ltd.",
+    "number": "PICL/HACCP/1225/9880",
+    "issued": "6 December 2025",
+    "validUntil": "5 December 2028",
+    "scope": "Manufacturers of poultry, aqua, cattle feed supplements, livestock nutrients & sea food exporters.",
+    "image": "/images/certificates/haccp.jpg",
+    "pdf": "/docs/haccp.pdf",
+    "verify": { "label": "picluk.com", "url": "https://www.picluk.com" }
+  },
+  {
+    "id": "gmp",
+    "title": "GMP",
+    "subtitle": "Good Manufacturing System",
+    "issuer": "UK Global Certification & Inspection Limited",
+    "number": "EQ2512GSA4389",
+    "issued": "6 December 2025",
+    "validUntil": "5 December 2028",
+    "scope": "Manufacturers of poultry, aqua, cattle feed supplements, livestock nutrients & sea food exporters.",
+    "image": "/images/certificates/gmp.jpg",
+    "pdf": "/docs/gmp.pdf",
+    "verify": { "label": "ukglobal.uk", "url": "https://www.ukglobal.uk" }
+  },
+  {
+    "id": "halal",
+    "title": "Halal",
+    "subtitle": "Certificate of Registration",
+    "issuer": "UK Global Certification & Inspection Limited",
+    "number": "UQ-1220111E1",
+    "issued": "8 September 2026",
+    "validUntil": "7 September 2029",
+    "scope": "Manufacturers of dried brewer's yeast, Nutriments-MDY, Nutriments 40% CP IDY, Nutriments 50% CP IDY, Nutrimins DMM-MOS, PTPP Biotech toxin binder, Sacc Aqua+, yeast beta glucan and yeast extraction.",
+    "image": "/images/certificates/halal.jpg",
+    "pdf": "/docs/halal.pdf",
+    "verify": { "label": "ukglobal.uk", "url": "https://www.ukglobal.uk/searchresult.php" }
+  }
+]

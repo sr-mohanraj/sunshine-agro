@@ -4,72 +4,94 @@
     "name": "Nutriments-MDY",
     "trademark": true,
     "subtitle": "Molasses Dried Yeast",
-    "descriptor": "Inactive Dried Yeast",
-    "category": "inactive-dried-yeast",
-    "species": ["shrimp", "fish", "poultry", "swine", "cattle", "pet"],
-    "featured": true,
+    "type": "Inactive dried yeast",
+    "species": ["Shrimp and prawns", "Fish", "Poultry", "Swine", "Cattle", "Pet food"],
     "order": 1,
     "image": "/images/products/mdy-bag.jpg",
-    "imageAlt": "Nutriments-MDY 25 kg bag, front and back panels",
+    "imageAlt": "Nutriments-MDY 25 kg bag, front and back",
     "gallery": [
-      { "src": "/images/products/mdy-bag-front.jpg", "alt": "Nutriments-MDY 25 kg bag, front panel with ingredients and composition" },
-      { "src": "/images/products/mdy-bag-back.jpg", "alt": "Nutriments-MDY 25 kg bag, back panel with advantages and dosages" },
-      { "src": "/images/products/nutriments-mdy.jpg", "alt": "Nutriments-MDY light brown fine powder" },
-      { "src": "/images/products/nutriments-mdy-alt.jpg", "alt": "Close crop of Nutriments-MDY powder texture" }
+      { "src": "/images/products/mdy-bag-front.jpg", "alt": "Nutriments-MDY 25 kg bag, front, with ingredients and composition" },
+      { "src": "/images/products/mdy-bag-back.jpg", "alt": "Nutriments-MDY 25 kg bag, back, with advantages and dosages" },
+      { "src": "/images/products/nutriments-mdy.jpg", "alt": "Nutriments-MDY powder on white paper" },
+      { "src": "/images/products/nutriments-mdy-alt.jpg", "alt": "Nutriments-MDY powder, second photograph" }
     ],
-    "summary": "A natural fermentation product made of 100% Saccharomyces cerevisiae cells grown on sugar cane molasses — a high-value protein source with a balanced amino acid profile and the best natural source of B vitamins.",
-    "metaDescription": "Nutriments-MDY: 100% Saccharomyces cerevisiae dried yeast grown on molasses, 40% min crude protein, for aqua, poultry, swine and cattle feed.",
-    "pitch": "Our flagship inactive dried yeast. Spray-dried from molasses-grown Saccharomyces cerevisiae, it acts as a prophylactic micro-ingredient and immune-system booster while adding natural palatability that lifts feed intake and feed conversion.",
-    "appearance": "Light brown coloured thin powder",
-    "ingredients": "100% Saccharomyces cerevisiae",
-    "microbial": "Saccharomyces cerevisiae: 35 × 10³ cfu/g",
+    "summary": "Inactive dried yeast made from 100% Saccharomyces cerevisiae cells grown on sugar cane molasses. Used in aqua, poultry, swine, cattle and pet feed.",
+    "metaDescription": "Nutriments-MDY inactive dried yeast made from Saccharomyces cerevisiae grown on molasses. 40% minimum crude protein. Dosage for aqua, poultry and cattle.",
+    "description": [
+      "Nutriments-MDY is a natural fermentation product made of 100% Saccharomyces cerevisiae cells, grown on sugar cane molasses. Inactive yeast is a good protein source with a balanced amino acid profile and useful levels of lysine, methionine and threonine. It is also a natural source of B vitamins.",
+      "It acts as a prophylactic micro-ingredient and immune system booster. It also adds natural palatability to the feed, which improves feed intake and feed conversion. Appearance: light brown, thin powder."
+    ],
     "benefits": [
       "Higher survival and growth rate",
       "Increased weight gain",
       "Improves efficiency of the digestive system",
       "Faster digestion and absorption of nutrients",
       "Higher feed consumption with better FCR",
-      "Reduces the pathogenic bacterial loads in gut",
+      "Reduces the pathogenic bacterial loads in the gut",
       "Enhances immunity and controls stress"
     ],
     "specs": [
-      { "group": "Proximate composition (typical)", "unit": "", "rows": [
-        { "k": "Moisture", "v": "8 % Max" },
-        { "k": "Ash", "v": "8 % Max" },
-        { "k": "Crude Protein", "v": "40 % Min" },
-        { "k": "Carbohydrate", "v": "40 %" },
-        { "k": "Ether extract", "v": "0.02 %" },
-        { "k": "Crude Fiber", "v": "0.30 %" },
-        { "k": "Gross energy, swine", "v": "4690 kcal/kg" },
-        { "k": "ME Poultry", "v": "2218 kcal/kg" },
-        { "k": "ME Swine", "v": "3276 kcal/kg" },
-        { "k": "TDN", "v": "78 %" }
-      ]},
-      { "group": "Vitamins (typical)", "unit": "ppm", "rows": [
-        { "k": "Thiamine (B1)", "v": "8.50" },
-        { "k": "Riboflavin (B2)", "v": "28.44" },
-        { "k": "Niacin (B3)", "v": "65.32" },
-        { "k": "Pantothenic acid (B5)", "v": "79.60" },
-        { "k": "Pyridoxine (B6)", "v": "13.36" },
-        { "k": "Choline (B7)", "v": "1205.42" },
-        { "k": "Biotin (B8)", "v": "2.12" },
-        { "k": "Folic acid (B9)", "v": "0.19" },
-        { "k": "Cyanocobalamin (B12)", "v": "0.003" }
-      ]},
-      { "group": "Minerals (typical)", "unit": "", "rows": [
-        { "k": "Calcium", "v": "0.17 %" },
-        { "k": "Phosphorus", "v": "0.56 %" },
-        { "k": "Potassium", "v": "0.10 %" },
-        { "k": "Magnesium", "v": "0.22 %" },
-        { "k": "Sulfur", "v": "0.28 %" },
-        { "k": "Sodium", "v": "0.03 %" },
-        { "k": "Zinc", "v": "31.32 ppm" },
-        { "k": "Selenium", "v": "0.02 ppm" },
-        { "k": "Copper", "v": "4.42 ppm" },
-        { "k": "Iron", "v": "98.10 ppm" },
-        { "k": "Manganese", "v": "21.92 ppm" },
-        { "k": "Chromium", "v": "1.31 ppm" }
-      ]}
+      {
+        "title": "Analysis printed on the bag",
+        "rows": [
+          { "k": "Saccharomyces cerevisiae", "v": "35 x 10³ cfu/g" },
+          { "k": "Crude protein", "v": "40% min" },
+          { "k": "Crude fat", "v": "3% max" },
+          { "k": "Crude fibre", "v": "3% max" },
+          { "k": "Moisture", "v": "8% max" },
+          { "k": "CE (kcal/kg)", "v": "3020" },
+          { "k": "Lysine", "v": "2.47%" },
+          { "k": "Methionine", "v": "0.57%" },
+          { "k": "Threonine", "v": "1.75%" }
+        ]
+      },
+      {
+        "title": "Proximate composition (typical)",
+        "rows": [
+          { "k": "Moisture", "v": "8% max" },
+          { "k": "Ash", "v": "8% max" },
+          { "k": "Crude protein", "v": "40% min" },
+          { "k": "Carbohydrate", "v": "40%" },
+          { "k": "Ether extract", "v": "0.02%" },
+          { "k": "Crude fibre", "v": "0.30%" },
+          { "k": "Gross energy, swine", "v": "4690 kcal/kg" },
+          { "k": "ME poultry", "v": "2218 kcal/kg" },
+          { "k": "ME swine", "v": "3276 kcal/kg" },
+          { "k": "TDN", "v": "78%" }
+        ]
+      },
+      {
+        "title": "Vitamins (typical)",
+        "unit": "ppm",
+        "rows": [
+          { "k": "Thiamine (B1)", "v": "8.50" },
+          { "k": "Riboflavin (B2)", "v": "28.44" },
+          { "k": "Niacin (B3)", "v": "65.32" },
+          { "k": "Pantothenic acid (B5)", "v": "79.6" },
+          { "k": "Pyridoxine (B6)", "v": "13.36" },
+          { "k": "Choline (B7)", "v": "1205.42" },
+          { "k": "Biotin (B8)", "v": "2.12" },
+          { "k": "Folic acid (B9)", "v": "0.19" },
+          { "k": "Cyanocobalamin (B12)", "v": "0.003" }
+        ]
+      },
+      {
+        "title": "Minerals (typical)",
+        "rows": [
+          { "k": "Calcium", "v": "0.17%" },
+          { "k": "Phosphorus", "v": "0.56%" },
+          { "k": "Potassium", "v": "0.10%" },
+          { "k": "Magnesium", "v": "0.22%" },
+          { "k": "Sulfur", "v": "0.28%" },
+          { "k": "Sodium", "v": "0.03%" },
+          { "k": "Zinc", "v": "31.32 ppm" },
+          { "k": "Selenium", "v": "0.02 ppm" },
+          { "k": "Copper", "v": "4.42 ppm" },
+          { "k": "Iron", "v": "98.10 ppm" },
+          { "k": "Manganese", "v": "21.92 ppm" },
+          { "k": "Chromium", "v": "1.31 ppm" }
+        ]
+      }
     ],
     "aminoAcids": {
       "columns": ["Amino acid (%)", "TAA", "DAA-Swine", "DAA-Poultry"],
@@ -78,7 +100,7 @@
         ["Arginine", "1.75", "1.58", "1.22"],
         ["Aspartic acid", "4.02", "3.51", "2.21"],
         ["Glycine", "1.65", "1.32", "1.22"],
-        ["Isoleucine", "1.90", "1.57", "0.63"],
+        ["Isoleucine", "1.9", "1.57", "0.63"],
         ["Leucine", "2.58", "2.17", "0.96"],
         ["Glutamic acid", "5.18", "4.35", "NE"],
         ["Lysine", "2.92", "2.46", "2.04"],
@@ -93,64 +115,59 @@
         ["Histidine", "1.10", "0.94", "0.59"],
         ["Serine", "2.18", "0.94", "1.040"]
       ],
-      "footnote": "TAA — Total Amino Acid · DAA — Digestible Amino Acid · NE — Not Evaluated"
+      "footnote": "TAA: total amino acid. DAA: digestible amino acid. NE: not evaluated."
     },
+    "aboutYeast": [
+      "Yeasts are unicellular fungi",
+      "Yeast cells are 20 to 300 times larger than bacteria",
+      "Yeasts are not affected by antibiotics",
+      "The cell wall structure comprises β-glucans, which are used as immunostimulants",
+      "Yeast is used in ruminant feeding to reduce the oxygen level in the rumen",
+      "Yeast occurs naturally in healthy fish",
+      "Yeast is used in the baking industry and for producing alcoholic beverages"
+    ],
+    "dosageTitle": "Dosage",
     "dosage": [
-      { "k": "Shrimp / Prawns", "v": "2 to 5 kg per ton of feed" },
+      { "k": "Shrimp and prawns", "v": "2 to 5 kg per ton of feed" },
       { "k": "Fish", "v": "1 to 3 kg per ton of feed" },
-      { "k": "Swine / Piglets", "v": "2 to 5 kg per ton of feed" },
-      { "k": "Poultry / Cattle", "v": "1 to 3 kg per ton of feed" },
+      { "k": "Swine and piglets", "v": "2 to 5 kg per ton of feed" },
+      { "k": "Poultry and cattle", "v": "1 to 3 kg per ton of feed" },
       { "k": "Broiler", "v": "2 kg per ton of feed" },
       { "k": "Pet foods", "v": "2 to 5 kg per ton of feed" }
     ],
-    "inclusionAlt": [
-      "Poultry feed — broilers and layers: 1.0 % – 2.5 % of total feed",
-      "Aqua feed — shrimp, eels & fish: 2.5 % – 5.0 % of total feed",
-      "Swine — piglets & sows: 2.5 % – 5.0 % of total feed",
-      "Bovines — beef & dairy cattle: 250 g / head / day",
-      "Pet food — dog & cat: 2.5 % – 5.0 % of total feed"
-    ],
-    "application": "Incorporate with feed",
-    "storage": "Keep in a cool, dry and aerated place, free of insects and stacked over pallets",
-    "shelfLife": "12 months from production date (24 months when stored per the method of analysis sheet)",
-    "packing": "25 kg & 40 kg HDPE paper bags with liner",
+    "methods": ["Incorporate with feed."],
+    "storage": "Keep in a cool and dry place. Store on pallets, away from insects.",
+    "shelfLife": "12 months from the production date",
+    "packing": "25 kg and 40 kg HDPE paper bags with liner",
     "analysis": [
-      { "k": "% Total nitrogen", "v": "6.4", "m": "AOAC 984.13, 1995" },
-      { "k": "% Protein", "v": "40 %", "m": "AOAC 990.03, 1995" },
-      { "k": "% Total ash", "v": "4.0", "m": "AOAC 942.05, 1995" },
-      { "k": "pH (5 % solution)", "v": "5.0 – 6.0", "m": "AOAC 973.04" },
-      { "k": "Heavy metals", "v": "Absent", "m": "Spectrometry" },
-      { "k": "Total bacterial count / g", "v": "< 35 000 cfu/g", "m": "Method 5, 1992" },
-      { "k": "E. coli & Salmonella / g", "v": "Absent", "m": "Method 3 & 4, 1992" },
-      { "k": "Moulds / g", "v": "< 300 cfu/g", "m": "Method 6, 2004" }
+      { "k": "Total nitrogen", "v": "6.4%", "m": "AOAC 984.13, 1995" },
+      { "k": "Protein", "v": "40%", "m": "AOAC 990.03, 1995" },
+      { "k": "Total ash", "v": "4.0%", "m": "AOAC 942.05, 1995" },
+      { "k": "pH (5% solution)", "v": "5.0 to 6.0", "m": "AOAC 973.04" },
+      { "k": "Heavy metals", "v": "Absent", "m": "Spectrometer" },
+      { "k": "Total bacterial count per g", "v": "Less than 35,000 cfu", "m": "Method 5, 1992" },
+      { "k": "E. coli and Salmonella per g", "v": "Absent", "m": "Method 3 and 4, 1992" },
+      { "k": "Moulds per g", "v": "Less than 300 cfu", "m": "Method 6, 2004" }
     ],
+    "analysisNote": "From our method of analysis sheet. All percentages are on a w/w basis.",
     "documents": [
-      { "label": "Product brochure (page 1)", "href": "/docs/brochure-nutriments-mdy-p1.pdf" },
-      { "label": "Product brochure (page 2)", "href": "/docs/brochure-nutriments-mdy-p2.pdf" }
+      { "label": "Method of analysis sheet (image)", "href": "/images/certificates/method-of-analysis.jpg" }
     ]
   },
   {
     "slug": "sunshine-aqua-plus",
-    "name": "Sunshine Aqua +",
-    "trademark": false,
+    "name": "Sunshine Aqua+",
     "subtitle": "Gut Pro Booster",
-    "descriptor": "Multi-strain Probiotic",
-    "category": "probiotics",
-    "species": ["shrimp", "fish"],
-    "featured": true,
+    "type": "Probiotic",
+    "species": ["Shrimp and prawns", "Fish"],
     "order": 2,
     "image": "/images/products/sunshine-aqua-plus.jpg",
-    "imageAlt": "Sunshine Aqua+ gut pro booster, an olive-tan powder spread on paper",
+    "imageAlt": "Sunshine Aqua+ powder",
     "gallery": [
-      { "src": "/images/products/sunshine-aqua-plus.jpg", "alt": "Sunshine Aqua+ gut pro booster powder" },
-      { "src": "/images/products/label-sunshine-aqua-plus.jpg", "alt": "Sunshine Aqua+ pack label showing the six-strain composition" }
+      { "src": "/images/products/sunshine-aqua-plus.jpg", "alt": "Sunshine Aqua+ powder" }
     ],
-    "summary": "A six-strain consortium of Bacillus, Lactobacillus and Saccharomyces built to colonise the shrimp and fish gut and hold pathogenic load down.",
-    "metaDescription": "Sunshine Aqua+: a six-strain Bacillus, Lactobacillus and Saccharomyces probiotic for shrimp and fish gut health, 280 x 10³ cfu/g combined count.",
-    "pitch": "Six defined strains at a combined 280 × 10³ cfu/g, formulated to survive pellet mill and extruder conditions so the count that leaves our plant is close to the count that reaches the animal.",
-    "appearance": "Olive-tan free-flowing powder",
-    "ingredients": "Bacillus licheniformis, Bacillus subtilis, Lactobacillus acidophilus, Lactobacillus sporogenes, Saccharomyces boulardii, Saccharomyces cerevisiae",
-    "microbial": "Combined viable count 280 × 10³ cfu/g",
+    "summary": "Gut pro booster for shrimp and fish with six probiotic strains: two Bacillus, two Lactobacillus and two Saccharomyces.",
+    "metaDescription": "Sunshine Aqua+ gut pro booster for shrimp and fish. Six strains of Bacillus, Lactobacillus and Saccharomyces, with dosage and application methods.",
     "benefits": [
       "Higher survival and growth rate",
       "Better feed intake",
@@ -158,180 +175,158 @@
       "Faster digestion and absorption of nutrients",
       "Higher feed consumption with better FCR",
       "Faster growth and weight gain",
-      "Reduces the pathogenic bacterial loads in gut",
+      "Reduces the pathogenic bacterial loads in the gut",
       "Improves health and immunity of fish and shrimp"
     ],
     "specs": [
-      { "group": "Ingredients and composition", "unit": "cfu/g", "rows": [
-        { "k": "Bacillus licheniformis", "v": "50 × 10³" },
-        { "k": "Bacillus subtilis", "v": "50 × 10³" },
-        { "k": "Lactobacillus acidophilus", "v": "75 × 10³" },
-        { "k": "Lactobacillus sporogenes", "v": "50 × 10³" },
-        { "k": "Saccharomyces boulardii", "v": "20 × 10³" },
-        { "k": "Saccharomyces cerevisiae", "v": "35 × 10³" }
-      ]}
+      {
+        "title": "Ingredients",
+        "unit": "cfu/g",
+        "rows": [
+          { "k": "Bacillus licheniformis", "v": "50 x 10³" },
+          { "k": "Bacillus subtilis", "v": "50 x 10³" },
+          { "k": "Lactobacillus acidophilus", "v": "75 x 10³" },
+          { "k": "Lactobacillus sporogenes", "v": "50 x 10³" },
+          { "k": "Saccharomyces boulardii", "v": "20 x 10³" },
+          { "k": "Saccharomyces cerevisiae", "v": "35 x 10³" }
+        ]
+      }
     ],
+    "dosageTitle": "Dosage",
     "dosage": [
-      { "k": "Shrimp / Prawns", "v": "1 to 2 kg per ton of feed" },
-      { "k": "Fish", "v": "0.5 to 1 kg per ton of feed" }
+      { "k": "Shrimp and prawns", "v": "1 to 2 kg per ton" },
+      { "k": "Fish", "v": "0.5 to 1 kg per ton" }
     ],
-    "applicationMethods": [
+    "methods": [
       "Spray-dry method with feed at farm level",
-      "Incorporate with mash in pellet mill operation (> 95 °C)",
-      "Add with coater in extruder operation (< 135 °C)"
+      "Incorporate with mash in pellet mill operation (above 95 °C)",
+      "Add with coater in extruder operation (below 135 °C)"
     ],
-    "application": "See application methods",
-    "storage": "Keep in a cool and dry place",
-    "shelfLife": "12 months from production date",
-    "packing": "1 kg and 25 kg packs"
+    "storage": "Keep in a cool and dry place."
   },
   {
     "slug": "nutrimins-dmm",
     "name": "Nutrimins-DMM",
     "trademark": true,
     "subtitle": "Dried Minerals Mix",
-    "descriptor": "Cattle Feed Supplement",
-    "category": "mineral-mix",
-    "species": ["cattle"],
-    "featured": true,
+    "type": "Mineral mix",
+    "species": ["Cattle"],
     "order": 3,
     "image": "/images/products/dmm-bag.jpg",
-    "imageAlt": "Nutrimins-DMM 25 kg bags, front and back panels",
+    "imageAlt": "Nutrimins-DMM 25 kg bags, front and back",
     "gallery": [
-      { "src": "/images/products/dmm-bag.jpg", "alt": "Nutrimins-DMM 25 kg bags showing composition and dosages" },
-      { "src": "/images/products/nutrimins-dmm.jpg", "alt": "Nutrimins-DMM dried minerals mix powder" },
-      { "src": "/images/products/label-nutrimins-dmm.jpg", "alt": "Nutrimins-DMM bag artwork, front and back panels" },
-      { "src": "/images/certificates/nutrimins-coa.jpg", "alt": "TANUVAS certificate of analysis for Nutrimins-DMM" }
+      { "src": "/images/products/dmm-bag.jpg", "alt": "Nutrimins-DMM 25 kg bags, front with composition and back with dosage" },
+      { "src": "/images/products/nutrimins-dmm.jpg", "alt": "Nutrimins-DMM powder" }
     ],
-    "summary": "A dried minerals mix for beef and dairy cattle, carrying macro and trace minerals on a digestible organic base rather than a plain inorganic carrier.",
-    "metaDescription": "Nutrimins-DMM: a registered dried minerals mix for beef and dairy cattle, independently assayed by the TANUVAS feed laboratory at Namakkal.",
-    "pitch": "Registered under Trade Mark No. 4064646, Nutrimins-DMM is our livestock line. It has been independently assayed by the Animal Feed Analytical and Quality Assurance Laboratory at TANUVAS, Namakkal — including a full mycotoxin panel, all not detected.",
-    "appearance": "Fine olive-brown powder",
-    "ingredients": "Dried minerals mix for livestock nutrition",
+    "summary": "Dried minerals mix for beef and dairy cattle, sold in 25 kg bags.",
+    "metaDescription": "Nutrimins-DMM dried minerals mix, a cattle feed supplement for beef and dairy cattle. Composition, dosage of 500 g to 1 kg per head per day, and packing.",
+    "description": [
+      "Nutrimins-DMM is a minerals mix for livestock nutrition, supplied as a cattle feed supplement. The Nutrimins-DMM name and logo are registered under Trade Mark No. 4064646 in Class 31.",
+      "A sample was analysed at the Animal Feed Analytical and Quality Assurance Laboratory, TANUVAS, Namakkal, in January 2019. Aflatoxins B1, B2, G1 and G2, ochratoxin, T-2 toxin, citrinin and zearalenone were not detected. The lab's test results relate only to the sample that was tested. The report is on our quality page."
+    ],
     "benefits": [
       "Higher survival and growth rate",
       "Increased weight gain",
       "Improves efficiency of the digestive system",
       "Faster digestion and absorption of nutrients",
       "Higher feed consumption with better FCR",
-      "Reduces the pathogenic bacterial loads in gut",
+      "Reduces the pathogenic bacterial loads in the gut",
       "Enhances immunity and controls stress"
     ],
     "specs": [
-      { "group": "Ingredients and composition (label)", "unit": "", "rows": [
-        { "k": "Gross energy", "v": "3867 kcal/kg" },
-        { "k": "Crude Protein", "v": "18 % Max" },
-        { "k": "Crude Fibre", "v": "15 % Max" },
-        { "k": "Ether Extract", "v": "2 % Max" },
-        { "k": "Moisture", "v": "10 % Max" },
-        { "k": "Calcium", "v": "0.50 %" },
-        { "k": "Phosphorus", "v": "2 %" },
-        { "k": "Iron", "v": "283 ppm" },
-        { "k": "Copper", "v": "23 ppm" },
-        { "k": "Manganese", "v": "69 ppm" }
-      ]}
+      {
+        "title": "Ingredients and composition (as printed on the bag)",
+        "rows": [
+          { "k": "GE (kcal/kg)", "v": "3867" },
+          { "k": "Crude protein", "v": "18% max" },
+          { "k": "Crude fibre", "v": "15% max" },
+          { "k": "Ether extract", "v": "2% max" },
+          { "k": "Moisture", "v": "10% max" },
+          { "k": "Calcium", "v": "0.50%" },
+          { "k": "Phosphorus", "v": "2%" },
+          { "k": "Iron", "v": "283 ppm" },
+          { "k": "Copper", "v": "23 ppm" },
+          { "k": "Manganese", "v": "69 ppm" }
+        ]
+      }
     ],
+    "dosageTitle": "Dosage",
     "dosage": [
-      { "k": "Bovines — beef & dairy cattle", "v": "500 g to 1 kg per head per day" }
+      { "k": "Bovines, beef and dairy cattle", "v": "500 g to 1 kg per head per day" }
     ],
-    "application": "Incorporate with feed",
+    "methods": ["Incorporate with feed."],
     "storage": "Keep in a cool and dry place. Use no hooks.",
-    "shelfLife": "24 months from production date",
+    "shelfLife": "24 months from the production date",
     "packing": "25 kg bags",
-    "analysis": [
-      { "k": "Moisture", "v": "15.67 %", "m": "AOAC 930.15" },
-      { "k": "Crude Protein", "v": "9.59 %", "m": "AOAC 984.13" },
-      { "k": "Crude Fibre", "v": "1.88 %", "m": "AOAC 962.09" },
-      { "k": "Ether Extract", "v": "1.14 %", "m": "AOAC 2003.06" },
-      { "k": "Total Ash", "v": "50.73 %", "m": "IS 14827-2000" },
-      { "k": "Acid Insoluble Ash", "v": "31.21 %", "m": "IS 14826-2000" },
-      { "k": "Calcium", "v": "9.77 %", "m": "AOAC 927.02" },
-      { "k": "Phosphorus", "v": "0.62 %", "m": "AOAC 965.17" },
-      { "k": "Iron", "v": "283 ppm", "m": "—" },
-      { "k": "Copper", "v": "23 ppm", "m": "—" },
-      { "k": "Manganese", "v": "69 ppm", "m": "—" },
-      { "k": "Salt", "v": "0.77 %", "m": "AOAC 943.01" },
-      { "k": "Aflatoxin B1, B2, G1, G2", "v": "Not detected", "m": "In-house" },
-      { "k": "Ochratoxin, T-2 toxin, Citrinin, Zearalenone", "v": "Not detected", "m": "In-house" }
-    ],
-    "analysisNote": "Certificate of Analysis — Lab Ref. 21772, ULR TC505319000001451P, Animal Feed Analytical and Quality Assurance Laboratory, Veterinary College and Research Institute, TANUVAS, Namakkal.",
-    "animalUseOnly": true
-  }
-,
+    "cautions": ["Animal use only. Not for human use."],
+    "documents": [
+      { "label": "TANUVAS certificate of analysis, 29 January 2019 (image)", "href": "/images/certificates/tanuvas-coa-2019.jpg" },
+      { "label": "Trade mark registration certificate (PDF)", "href": "/docs/trade-mark-registration.pdf" }
+    ]
+  },
   {
     "slug": "sun-calci-gold",
     "name": "Sun Calci Gold",
-    "trademark": false,
     "subtitle": "Oral Calcium, Phosphorus, Magnesium & Energy Gel",
-    "descriptor": "Oral Transition Gel",
-    "category": "oral-supplement",
-    "species": ["cattle"],
-    "featured": true,
+    "type": "Oral gel",
+    "species": ["Dairy cattle", "Buffaloes"],
     "order": 4,
     "image": "/images/products/calci-gold.jpg",
-    "imageAlt": "Bottles of Sun Calci Gold oral calcium gel, 300 g, lined up on a counter",
+    "imageAlt": "Sun Calci Gold 300 g bottles",
     "gallery": [
-      { "src": "/images/products/calci-gold.jpg", "alt": "Sun Calci Gold 300 g bottles, label facing forward" },
-      { "src": "/images/products/label-calci-gold-front.jpg", "alt": "Sun Calci Gold product sheet showing composition, benefits and directions for use" },
-      { "src": "/images/products/label-calci-gold-back.jpg", "alt": "Sun Calci Gold full label artwork with composition and cautions" },
-      { "src": "/images/products/calci-gold-bottles.jpg", "alt": "A production batch of Sun Calci Gold bottles" }
+      { "src": "/images/products/calci-gold.jpg", "alt": "Sun Calci Gold 300 g bottles" },
+      { "src": "/images/products/calci-gold-bottles.jpg", "alt": "Sun Calci Gold bottles in a row" }
     ],
-    "summary": "A chocolate-flavoured oral gel for dairy cattle and buffaloes around calving — 30 g of available calcium with phosphorus, magnesium and an instant energy base in a single 300 g bottle.",
-    "metaDescription": "Sun Calci Gold: a 300g oral calcium, phosphorus and magnesium gel for dairy cattle and buffaloes at calving, with vitamin D3 and instant energy.",
-    "pitch": "The one product in our range that is not mixed into feed. Calci Gold is drenched directly, which is what the transition period demands: at calving you need blood calcium held up within hours, not over a feeding cycle. Dextrose and propylene glycol carry the minerals in on an instant energy base, and the chocolate flavour is there so the animal takes the dose.",
-    "appearance": "Smooth brown gel, delicious chocolate flavour",
-    "ingredients": "Calcium, phosphorus and magnesium salts with vitamin D3, B12, biotin, zinc and cobalt on a molasses and dextrose base",
+    "summary": "Chocolate-flavoured oral gel for dairy cattle and buffaloes, with calcium, phosphorus, magnesium, vitamin D3 and an energy base of dextrose and propylene glycol. 300 g bottle.",
+    "metaDescription": "Sun Calci Gold, a 300 g oral calcium, phosphorus and magnesium gel with vitamin D3 for dairy cattle and buffaloes. Composition and directions for use.",
+    "description": [
+      "Sun Calci Gold is meant for the transition period: before calving, after calving, during stress conditions such as transport, heat and illness, and for high yielding animals. It is chocolate flavoured."
+    ],
     "benefits": [
-      "Prevents milk fever — helps maintain normal calcium levels in blood",
-      "Supports milk production — improves milk yield and quality",
-      "Faster recovery — helps the animal recover quickly after calving",
-      "Better uterine health — supports normal uterine contraction and expulsion of placenta",
-      "Energy booster — instant energy from dextrose and propylene glycol",
-      "Improves fertility — helps improve conception rate and reproductive health"
-    ],
-    "indications": [
-      "Hypocalcaemia",
-      "Sudden drop in milk production",
-      "Prolapse and retention of placenta",
-      "Hypothermia (low temperature)",
-      "Supportive therapy for blood clotting"
-    ],
-    "claims": [
-      "For animal use only",
-      "Not for human use",
-      "Not for medicinal use",
-      "Keep out of reach of children"
+      "Prevents milk fever: helps maintain normal calcium levels in blood",
+      "Supports milk production: improves milk yield and quality",
+      "Faster recovery: helps the animal recover quickly after calving",
+      "Better uterine health: supports normal uterine contraction and expulsion of placenta",
+      "Energy booster: provides instant energy with dextrose and propylene glycol",
+      "Improves fertility: helps improve conception rate and reproductive health"
     ],
     "specs": [
-      { "group": "Each 300 g contains", "unit": "", "rows": [
-        { "k": "Calcium (available)", "v": "30 000 mg" },
-        { "k": "Phosphorus", "v": "15 000 mg" },
-        { "k": "Magnesium", "v": "6 000 mg" },
-        { "k": "Vitamin D3", "v": "15 000 IU" },
-        { "k": "Vitamin B12", "v": "500 mcg" },
-        { "k": "Biotin", "v": "500 mcg" },
-        { "k": "Zinc", "v": "500 mg" },
-        { "k": "Cobalt", "v": "50 mg" },
-        { "k": "Dextrose", "v": "30 g" },
-        { "k": "Propylene glycol", "v": "20 g" },
-        { "k": "Molasses base", "v": "q.s." },
-        { "k": "Flavouring agent", "v": "q.s." }
-      ]}
+      {
+        "title": "Each 300 g contains",
+        "rows": [
+          { "k": "Calcium (available)", "v": "30,000 mg" },
+          { "k": "Phosphorus", "v": "15,000 mg" },
+          { "k": "Magnesium", "v": "6,000 mg" },
+          { "k": "Vitamin D3", "v": "15,000 IU" },
+          { "k": "Vitamin B12", "v": "500 mcg" },
+          { "k": "Biotin", "v": "500 mcg" },
+          { "k": "Zinc", "v": "500 mg" },
+          { "k": "Cobalt", "v": "50 mg" },
+          { "k": "Dextrose", "v": "30 g" },
+          { "k": "Propylene glycol", "v": "20 g" },
+          { "k": "Molasses base", "v": "q.s." },
+          { "k": "Flavouring agent", "v": "q.s." }
+        ]
+      }
     ],
+    "dosageTitle": "Directions for use",
     "dosage": [
-      { "k": "Before calving", "v": "1 bottle (300 g), 12–24 hours before expected calving" },
-      { "k": "After calving", "v": "1 bottle (300 g) immediately, repeat after 12 hours if required" },
-      { "k": "High yielding animals", "v": "As advised by a veterinarian or animal nutritionist" }
+      { "k": "Before calving", "v": "1 bottle (300 g), 12 to 24 hours before expected calving" },
+      { "k": "After calving", "v": "1 bottle (300 g) immediately after calving. Repeat after 12 hours if required." },
+      { "k": "High yielding animals", "v": "Use as per the advice of a veterinarian or animal nutritionist" }
     ],
-    "applicationMethods": [
-      "Give orally, straight from the bottle — not mixed with feed",
-      "Before calving, to prepare the animal for the transition",
-      "After calving, for quick recovery",
-      "During stress conditions — transport, heat, illness"
+    "conditions": [
+      "Sudden drop in milk production",
+      "Prolapse and retention of placenta",
+      "Supportive therapy for blood clotting",
+      "Hypothermia (low temperature)",
+      "Hypocalcaemia"
     ],
-    "application": "Oral drench",
-    "storage": "Store in a cool, dry place away from direct sunlight",
     "packing": "300 g bottle",
-    "animalUseOnly": true
+    "cautions": [
+      "Animal feed supplement. Not for medicinal use.",
+      "Not for human use. For animal use only.",
+      "Keep out of reach of children."
+    ]
   }
 ]

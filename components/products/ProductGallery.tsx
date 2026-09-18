@@ -3,62 +3,45 @@
 import { useState } from "react";
 import Image from "next/image";
 import clsx from "clsx";
-import type { GalleryImage } from "@/lib/types";
 
-export function ProductGallery({
-  images,
-  name,
-}: {
-  images: GalleryImage[];
-  name: string;
-}) {
+export function ProductGallery({ images }: { images: { src: string; alt: string }[] }) {
   const [index, setIndex] = useState(0);
   const current = images[index];
 
   return (
     <div>
-      <div className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-ink-50 ring-1 ring-ink-100 dark:bg-ink-700 dark:ring-ink-600">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-md border border-ink-100 bg-white">
         <Image
           key={current.src}
           src={current.src}
           alt={current.alt}
           fill
           priority
-          sizes="(min-width: 1024px) 46vw, 92vw"
-          className="animate-fade-up object-cover"
+          sizes="(min-width: 1024px) 40vw, (min-width: 768px) 45vw, 92vw"
+          className="object-contain"
         />
       </div>
 
       {images.length > 1 && (
-        <div
-          className="scrollbar-none mt-3 flex gap-3 overflow-x-auto pb-1"
-          role="tablist"
-          aria-label={`${name} images`}
-        >
+        <ul className="mt-3 flex flex-wrap gap-2">
           {images.map((img, i) => (
-            <button
-              key={img.src}
-              type="button"
-              role="tab"
-              aria-selected={i === index}
-              aria-label={img.alt}
-              onClick={() => setIndex(i)}
-              className={clsx(
-                "focus-ring relative h-16 w-20 shrink-0 overflow-hidden rounded-lg ring-2 transition-all sm:h-20 sm:w-24",
-                i === index
-                  ? "ring-sun-500"
-                  : "opacity-65 ring-transparent hover:opacity-100"
-              )}
-            >
-              <Image src={img.src} alt="" fill sizes="96px" className="object-cover" />
-            </button>
+            <li key={img.src}>
+              <button
+                type="button"
+                onClick={() => setIndex(i)}
+                aria-label={`Show photo ${i + 1} of ${images.length}: ${img.alt}`}
+                aria-pressed={i === index}
+                className={clsx(
+                  "focus-ring relative block h-14 w-[4.5rem] overflow-hidden rounded border bg-white",
+                  i === index ? "border-sun-600 ring-1 ring-sun-600" : "border-ink-200 hover:border-ink-400"
+                )}
+              >
+                <Image src={img.src} alt="" fill sizes="72px" className="object-cover" />
+              </button>
+            </li>
           ))}
-        </div>
+        </ul>
       )}
-
-      <p className="mt-3 text-[12.5px] leading-relaxed text-ink-400 dark:text-bone-200/50">
-        {current.alt}
-      </p>
     </div>
   );
 }

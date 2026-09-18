@@ -1,14 +1,8 @@
-# Sunshine Agro Products — website
+# Sunshine Agro Products website
 
-Marketing and product-catalogue site for Sunshine Agro Products, an ISO 9001:2015
-certified manufacturer of inactive dried yeast and specialised feed supplements
-for aqua, poultry, swine and livestock nutrition.
+Website for Sunshine Agro Products, Chennai and Erode. Built with Next.js 14, TypeScript and Tailwind CSS. It is a static site: every page is generated at build time.
 
-Built with Next.js 14 (App Router), TypeScript, Tailwind CSS and Framer Motion —
-the same stack as the United Enterprises site, so the two projects stay
-maintainable side by side.
-
-## Running it
+## Run it
 
 ```bash
 npm install
@@ -18,64 +12,40 @@ npm install
 npm run dev
 ```
 
-The dev server runs at http://localhost:3000. For a production build:
+The site opens at http://localhost:3000. To check a production build:
 
 ```bash
-npm run build && npm run start
+npm run build
 ```
 
-## How it is organised
+```bash
+npm run start
+```
 
-| Path | What lives there |
+## Where things are
+
+| Folder | Contents |
 | --- | --- |
-| `app/` | Routes. One folder per page, plus `sitemap.ts` and `robots.ts`. |
-| `app/products/[slug]/` | Product spec sheets, statically generated from `data/products.json`. |
-| `components/` | Shared UI. `home/` holds homepage sections, `products/` the catalogue pieces. |
-| `data/` | All copy that is really *data*: company details, the product range. |
-| `lib/` | Site config, fonts, the product accessor and the category/species taxonomy. |
-| `public/images/` | Product photography, plant photography, certificates, brand marks. |
+| `app/` | One folder per page (home, products, about, manufacturing, quality, contact). |
+| `data/company.json` | Addresses, phone numbers, email, GSTIN, capacity, industries served. |
+| `data/products.json` | Every product: composition tables, dosage, packing, meta description. |
+| `data/certificates.json` | Every certificate on the Quality page. |
+| `components/` | Header, footer, product cards and other shared pieces. |
+| `public/images/` | Product, plant and certificate images. |
+| `public/docs/` | PDF copies of the certificates. |
 
-### Editing content
+## Changing content
 
-Almost everything a non-developer would want to change lives in two JSON files:
+Most edits are made in the three files in `data/`. No code changes are needed.
 
-- **`data/company.json`** — addresses, phone numbers, GSTIN, ISO certificate
-  number, the proprietor's details, the homepage stat tiles.
-- **`data/products.json`** — the product range. Each entry drives its card, its
-  sidebar row, and its whole spec-sheet page: typical composition tables, amino
-  acid profile, dosage rates, packing, shelf life and analytical results.
+**Add a product:** add an entry to `data/products.json` and put its photos in `public/images/products/`. The product page, the product list, the sidebar and the footer link are all created from that one entry. Give it a `metaDescription` of about 150 characters.
 
-Adding a product means adding one object to `data/products.json` and dropping its
-photograph into `public/images/products/`. Its detail page, catalogue card,
-sidebar entry, footer link and sitemap entry all appear automatically. Set
-`category` to one of the ids in `lib/taxonomy.ts` and `species` to any of the
-species ids there.
+**Add or renew a certificate:** put the PDF in `public/docs/`, save a JPEG of the first page in `public/images/certificates/`, and add or edit its entry in `data/certificates.json`. The home page table and the Quality page both read from that file.
 
-### The product column
+**Change a phone number or address:** edit `data/company.json`.
 
-`components/products/ProductColumn.tsx` is the standing catalogue sidebar. It
-renders on `/products` and on every product page, grouped by category with the
-current product highlighted, so the full range is always one click away.
+## Before it goes live
 
-## Notes on the build
-
-- **The enquiry form has no backend.** The site is fully static, so
-  `components/contact/EnquiryForm.tsx` composes the enquiry and hands it to the
-  visitor's own mail client or WhatsApp. Nothing is silently dropped and the
-  sender keeps a copy. If a server-side inbox is wanted later, replace the
-  submit handler with a POST to an API route.
-- **Deployment** produces a fully static export from `npm run build` — any static
-  host or Node host will serve it. Set `NEXT_PUBLIC_SITE_URL` to the live domain
-  so canonical URLs, the sitemap and Open Graph tags point at the right host.
-- **Colour tokens** in `tailwind.config.ts` are tuned for contrast, not just for
-  brand match: `sun-600` and `ink-400` are the light-mode text shades and both
-  clear WCAG AA on the bone background. Change them and re-check contrast.
-- Light and dark themes are both supported via `next-themes`.
-
-## Source material
-
-Product data is transcribed from the company's own documents — the Nutriments-MDY
-brochure, the method-of-analysis sheet, bag artwork, the ISO 9001:2015
-certificate, the trade mark registration, and the TANUVAS certificate of analysis
-for Nutrimins-DMM. Scans of those documents are in `public/images/certificates/`
-and `public/docs/`.
+- Set `NEXT_PUBLIC_SITE_URL` to the real domain. Until then the sitemap and share tags use a placeholder address (`https://sunshineagroproducts.com`).
+- The enquiry form has no server behind it. The buttons open the visitor's email app or WhatsApp with the enquiry filled in. If enquiries should land in an inbox directly, the form needs a form service or an API route.
+- Certificates carry their own expiry dates. The ISO 9001:2015 certificate has surveillance audits due by 5 February 2026 and 5 February 2027, and the others have their own. Update `data/certificates.json` when a certificate is renewed.

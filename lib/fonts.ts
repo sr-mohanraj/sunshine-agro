@@ -1,4 +1,4 @@
-import { Inter, JetBrains_Mono, Sora } from "next/font/google";
+import { Inter, Source_Serif_4 } from "next/font/google";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -6,16 +6,8 @@ export const inter = Inter({
   display: "swap",
 });
 
-export const sora = Sora({
+export const serif = Source_Serif_4({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
-  variable: "--font-sora",
-  display: "swap",
-});
-
-export const jetbrainsMono = JetBrains_Mono({
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-jetbrains-mono",
+  variable: "--font-serif",
   display: "swap",
 });

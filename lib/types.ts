@@ -1,50 +1,49 @@
-export type SpecRow = { k: string; v: string };
-export type SpecGroup = { group: string; unit?: string; rows: SpecRow[] };
-export type GalleryImage = { src: string; alt: string };
-export type AnalysisRow = { k: string; v: string; m: string };
+export type Row = { k: string; v: string };
+export type SpecGroup = { title: string; unit?: string; rows: Row[] };
 
 export type Product = {
   slug: string;
   name: string;
   trademark?: boolean;
   subtitle: string;
-  descriptor: string;
-  category: string;
+  /** Short product type shown on cards, e.g. "Inactive dried yeast". */
+  type: string;
   species: string[];
-  featured?: boolean;
   order: number;
   image: string;
   imageAlt: string;
-  gallery?: GalleryImage[];
+  gallery: { src: string; alt: string }[];
   summary: string;
-  /** Dedicated <meta name="description"> text — shorter and more literal than
-   * `summary`, which is written for on-page reading and runs long for a search
-   * snippet. Falls back to `summary` if omitted. */
-  metaDescription?: string;
-  pitch?: string;
-  appearance?: string;
-  ingredients?: string;
-  microbial?: string;
+  /** Text for <meta name="description">. Kept separate from `summary`. */
+  metaDescription: string;
+  description?: string[];
   benefits?: string[];
-  /** Conditions the label positions the product around, e.g. for an oral gel. */
-  indications?: string[];
-  claims?: string[];
   specs?: SpecGroup[];
-  aminoAcids?: {
-    columns: string[];
-    rows: string[][];
-    footnote?: string;
-  };
-  dosage?: SpecRow[];
-  inclusionAlt?: string[];
-  applicationMethods?: string[];
-  application?: string;
+  aminoAcids?: { columns: string[]; rows: string[][]; footnote?: string };
+  aboutYeast?: string[];
+  dosageTitle?: string;
+  dosage?: Row[];
+  methods?: string[];
   storage?: string;
   shelfLife?: string;
   packing?: string;
-  analysis?: AnalysisRow[];
+  conditions?: string[];
+  analysis?: { k: string; v: string; m: string }[];
   analysisNote?: string;
+  cautions?: string[];
   documents?: { label: string; href: string }[];
-  specSheetOnRequest?: boolean;
-  animalUseOnly?: boolean;
+};
+
+export type Certificate = {
+  id: string;
+  title: string;
+  subtitle?: string;
+  issuer: string;
+  number: string;
+  issued: string;
+  validUntil: string;
+  scope: string;
+  image: string;
+  pdf: string;
+  verify: { label: string; url: string };
 };

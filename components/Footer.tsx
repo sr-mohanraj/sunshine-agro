@@ -1,120 +1,79 @@
 import Link from "next/link";
-import { Mail, MapPin, Phone, ShieldCheck } from "lucide-react";
 import company from "@/data/company.json";
-import { NAV_LINKS } from "@/lib/site";
+import { NAV_LINKS, telHref } from "@/lib/site";
 import { PRODUCTS } from "@/lib/products";
 import { Logo } from "./Logo";
 
 export function Footer() {
+  const { addresses, contact } = company;
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative overflow-hidden bg-ink-900 text-bone-200">
-      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-sun-gradient" aria-hidden />
-
-      <div className="container-page grid gap-12 py-16 lg:grid-cols-12 lg:gap-8 lg:py-20">
-        <div className="lg:col-span-4">
-          <Logo inverted static />
-          <p className="mt-5 max-w-sm text-sm leading-relaxed text-bone-200/65">
-            {company.description}
-          </p>
-          <p className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/12 px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.12em] text-sun-300">
-            <ShieldCheck className="h-3.5 w-3.5" aria-hidden />
-            ISO 9001:2015
+    <footer className="bg-ink text-sm text-ink-200">
+      <div className="container-page grid gap-8 py-12 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <Logo dark link={false} />
+          <p className="mt-4 max-w-xs">
+            Established in {company.founded} in Chennai. Feed supplements for aqua, poultry and
+            livestock nutrition, made at our unit in Erode.
           </p>
         </div>
 
-        <div className="lg:col-span-2">
-          <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-bone-200/45">
-            Navigate
-          </h3>
-          <ul className="mt-4 space-y-2.5">
-            {NAV_LINKS.map((link) => (
-              <li key={link.href}>
-                <Link
-                  href={link.href}
-                  className="focus-ring rounded text-sm text-bone-200/75 transition-colors hover:text-sun-300"
-                >
-                  {link.label}
+        <div>
+          <h2 className="font-sans text-sm font-semibold text-white">Pages</h2>
+          <ul className="mt-3 space-y-1">
+            {NAV_LINKS.map((l) => (
+              <li key={l.href}>
+                <Link href={l.href} className="focus-ring inline-block rounded py-1.5 hover:text-white">
+                  {l.label}
                 </Link>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className="lg:col-span-3">
-          <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-bone-200/45">
-            Products
-          </h3>
-          <ul className="mt-4 space-y-2.5">
+        <div>
+          <h2 className="font-sans text-sm font-semibold text-white">Products</h2>
+          <ul className="mt-3 space-y-1">
             {PRODUCTS.map((p) => (
               <li key={p.slug}>
-                <Link
-                  href={`/products/${p.slug}`}
-                  className="focus-ring rounded text-sm text-bone-200/75 transition-colors hover:text-sun-300"
-                >
+                <Link href={`/products/${p.slug}`} className="focus-ring inline-block rounded py-1.5 hover:text-white">
                   {p.name}
-                  <span className="ml-1.5 text-bone-200/35">— {p.subtitle}</span>
                 </Link>
               </li>
             ))}
           </ul>
         </div>
 
-        <div className="lg:col-span-3">
-          <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-bone-200/45">
-            Get in touch
-          </h3>
-          <ul className="mt-4 space-y-4 text-sm">
-            {company.addresses.map((a) => (
-              <li key={a.type} className="flex gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-sun-400" aria-hidden />
-                <span className="text-bone-200/70">
-                  <span className="block text-[11px] uppercase tracking-wider text-bone-200/40">
-                    {a.type}
-                  </span>
-                  {a.line1}, {a.line2}, {a.city} — {a.postal}, {a.state}
-                </span>
-              </li>
-            ))}
-            <li className="flex gap-3">
-              <Phone className="mt-0.5 h-4 w-4 shrink-0 text-sun-400" aria-hidden />
-              <span className="flex flex-col gap-1">
-                <a
-                  href={`tel:${company.contact.phone.replace(/\s/g, "")}`}
-                  className="focus-ring rounded text-bone-200/75 hover:text-sun-300"
-                >
-                  {company.contact.phone}
+        <div>
+          <h2 className="font-sans text-sm font-semibold text-white">Contact</h2>
+          <address className="mt-3 space-y-3 not-italic">
+            <p>
+              <span className="block text-ink-300">{addresses.office.label}</span>
+              {addresses.office.lines.slice(0, 3).join(", ")}
+            </p>
+            <p>
+              <span className="block text-ink-300">{addresses.plant.label}</span>
+              {addresses.plant.lines.slice(0, 3).join(", ")}
+            </p>
+            <p>
+              {contact.mobiles.slice(0, 2).map((n) => (
+                <a key={n} href={telHref(n)} className="focus-ring block rounded py-1.5 hover:text-white">
+                  {n}
                 </a>
-                <a
-                  href={`tel:${company.contact.phoneAlt.replace(/\s/g, "")}`}
-                  className="focus-ring rounded text-bone-200/75 hover:text-sun-300"
-                >
-                  {company.contact.phoneAlt}
-                </a>
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <Mail className="mt-0.5 h-4 w-4 shrink-0 text-sun-400" aria-hidden />
-              <a
-                href={`mailto:${company.contact.email}`}
-                className="focus-ring break-all rounded text-bone-200/75 hover:text-sun-300"
-              >
-                {company.contact.email}
+              ))}
+              <a href={`mailto:${contact.email}`} className="focus-ring block break-all rounded py-1.5 hover:text-white">
+                {contact.email}
               </a>
-            </li>
-          </ul>
+            </p>
+          </address>
         </div>
       </div>
 
-      <div className="border-t border-white/10">
-        <div className="container-page flex flex-col gap-3 py-6 text-[12px] text-bone-200/45 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {year} {company.name}. All rights reserved.
-          </p>
-          <p className="font-mono uppercase tracking-[0.1em]">
-            GSTIN {company.registration.gstin}
-          </p>
+      <div className="border-t border-ink-700">
+        <div className="container-page flex flex-col gap-1 py-4 text-xs text-ink-300 sm:flex-row sm:justify-between">
+          <p>&copy; {year} {company.name}</p>
+          <p>GSTIN {company.gstin}</p>
         </div>
       </div>
     </footer>

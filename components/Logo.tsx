@@ -2,51 +2,43 @@ import Image from "next/image";
 import Link from "next/link";
 import clsx from "clsx";
 
-type Props = {
-  inverted?: boolean;
-  className?: string;
-  /** Render as a plain block rather than a link (for footers / menus). */
-  static?: boolean;
-};
-
-export function Logo({ inverted = false, className, static: isStatic }: Props) {
+/**
+ * The logo mark is orange line art drawn for a black background, so it always
+ * sits on a dark tile, the way it appears on the company's own artwork.
+ */
+export function Logo({ dark = false, link = true }: { dark?: boolean; link?: boolean }) {
   const content = (
     <>
-      <Image
-        src="/images/brand/mark.png"
-        alt=""
-        width={493}
-        height={772}
-        priority
-        className="h-9 w-auto shrink-0 sm:h-10"
-      />
-      <span className="flex flex-col leading-none">
+      <span className="grid h-11 w-11 shrink-0 place-items-center rounded bg-ink">
+        <Image
+          src="/images/brand/mark.png"
+          alt=""
+          width={493}
+          height={772}
+          className="h-8 w-auto"
+          priority
+        />
+      </span>
+      <span className="leading-tight">
         <span
           className={clsx(
-            "font-display text-[15px] font-bold uppercase tracking-[0.06em] sm:text-base",
-            inverted ? "text-bone-100" : "text-ink-900 dark:text-bone-100"
+            "block font-display text-lg font-semibold",
+            dark ? "text-white" : "text-ink-900"
           )}
         >
-          Sunshine Agro
+          Sunshine Agro Products
         </span>
-        <span
-          className={clsx(
-            "mt-1 font-mono text-[9.5px] uppercase tracking-[0.24em] sm:text-[10px]",
-            inverted ? "text-sun-300" : "text-sun-600 dark:text-sun-300"
-          )}
-        >
-          Products
+        <span className={clsx("hidden text-xs sm:block", dark ? "text-ink-300" : "text-ink-400")}>
+          Aqua, poultry &amp; livestock nutrition
         </span>
       </span>
     </>
   );
 
-  const classes = clsx("focus-ring flex items-center gap-2.5 rounded-lg", className);
-
-  if (isStatic) return <div className={classes}>{content}</div>;
-
+  const cls = "flex items-center gap-3";
+  if (!link) return <div className={cls}>{content}</div>;
   return (
-    <Link href="/" className={classes} aria-label="Sunshine Agro Products — home">
+    <Link href="/" className={clsx(cls, "focus-ring rounded")} aria-label="Sunshine Agro Products, home">
       {content}
     </Link>
   );
